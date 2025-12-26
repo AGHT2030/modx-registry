@@ -51,5 +51,8 @@ Experience modules and consumer-facing systems activate post-launch.
 
 This repository is provided for informational and transparency purposes only.  
 Nothing herein constitutes an offer, solicitation, or investment advice.
+## Registry Files
+- [Pre-Launch Disclosure](./PRELAUNCH.md)
+- [Public Smart Contract Registry](./CONTRACT_REGISTRY.md)
 
 © 2025 AG Holdings Trust | MODX Sovereign Technologies
