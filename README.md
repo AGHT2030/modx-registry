@@ -62,4 +62,6 @@ All trademarks, service marks, proprietary frameworks, governance structures, an
 - [Pre-Launch Disclosure](./PRELAUNCH.md)
 - [Public Smart Contract Registry](./CONTRACT_REGISTRY.md)
 
+AGH Trust provides sovereign stewardship and governance oversight
+for affiliated entities within the MODX ecosystem.
 © 2025 AG Holdings Trust | MODX Sovereign Technologies
