@@ -51,6 +51,10 @@ Experience modules and consumer-facing systems activate post-launch.
 
 This repository is provided for informational and transparency purposes only.  
 Nothing herein constitutes an offer, solicitation, or investment advice.
+
+Intellectual Property Notice
+Certain technologies described herein are protected by one or more U.S. patent applications, including U.S. Patent Application No. 19/433,003, filed with the United States Patent and Trademark Office. Additional applications may be pending. 
+
 ## Registry Files
 - [Pre-Launch Disclosure](./PRELAUNCH.md)
 - [Public Smart Contract Registry](./CONTRACT_REGISTRY.md)
