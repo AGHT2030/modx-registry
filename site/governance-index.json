@@ -1,0 +1,11 @@
+{
+    "constitution": "/governance/constitution/MODX_Constitution.md",
+    "amendments_index": "/governance/constitution/Amendments_Index.md",
+    "definitions": "/governance/constitution/Definitions_Glossary.md",
+    "allocation_rules": "/governance/constitution/Allocation_Rules_Immutable.md",
+    "aura_boundaries": "/governance/constitution/AURA_Governance_Boundaries.md",
+    "poa_covenant": "/governance/covenants/Participant_Onboarding_Administrator_Covenant.md",
+    "broker_standards": "/governance/covenants/Broker_Participation_Standards.md",
+    "project_exit": "/governance/charters/Project_Maturity_and_Exit_Charter.md",
+    "philanthropy": "/governance/charters/Philanthropic_Protection_Charter.md"
+}
