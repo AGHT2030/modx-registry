@@ -3,6 +3,19 @@ Public registry and pre-launch disclosures for the MODX sovereign financial, gov
 > **Authoritative Public Disclosure Repository**  
 > This repository serves as the canonical public record for MODX pre-launch infrastructure and disclosures.
 
+# MODX Registry
+
+## Executive Summary (Governance & Oversight)
+
+## Repository Purpose
+(existing content)
+
+## Architecture
+(existing content)
+
+## Deployment
+(existing content)
+
 # MODX Public Registry
 
 This repository serves as the official public registry and disclosure record for the MODX sovereign financial, governance, and security platform.
@@ -10,6 +23,29 @@ This repository serves as the official public registry and disclosure record for
 MODX is designed to operate non-custodial financial rails, synthetic exchange-traded instruments, decentralized governance mechanisms, and privacy-preserving identity enforcement systems across institutional, corporate, and retail domains.
 
 ---
+## Executive Summary — Governance & Oversight
+
+MODX is a governed financial infrastructure platform designed to operate under long-term authority control, regulatory oversight, and institutional compliance.
+
+The platform provides:
+
+- Authority-controlled Proof-of-Authority (POA) execution  
+- Verifiable observability and auditability  
+- Tokenized financial instruments and settlement rails  
+- Long-horizon governance alignment  
+
+### Governance Model
+
+MODX is governed by **AG Holdings Trust (AGHT)**, an independent trust structure responsible for:
+
+- Authority issuance and revocation  
+- Compliance enforcement  
+- Trustee oversight  
+- Regulatory engagement  
+
+Public technical documentation is maintained in this repository for transparency and verification.
+
+Governance manuals, compliance procedures, enforcement policies, and sealed artifacts are maintained privately by AG Holdings Trust and are made available to regulators, trustees, and qualified counterparties under controlled access.
 
 ## Purpose of This Repository
 
@@ -90,27 +126,3 @@ MODX is governed by **AG Holdings Trust (AGHT)**, an independent trust structure
 Public technical documentation is maintained here for transparency and verification.
 
 **Governance manuals, compliance procedures, enforcement policies, and sealed artifacts are maintained privately by AG Holdings Trust and are made available to regulators, trustees, and qualified counterparties under controlled access.**
-
-## Executive Summary — Governance & Oversight
-
-MODX is a governed financial infrastructure platform designed to operate under long-term authority control, regulatory oversight, and institutional compliance.
-
-The platform provides:
-
-- Authority-controlled Proof-of-Authority (POA) execution  
-- Verifiable observability and auditability  
-- Tokenized financial instruments and settlement rails  
-- Long-horizon governance alignment  
-
-### Governance Model
-
-MODX is governed by **AG Holdings Trust (AGHT)**, an independent trust structure responsible for:
-
-- Authority issuance and revocation  
-- Compliance enforcement  
-- Trustee oversight  
-- Regulatory engagement  
-
-Public technical documentation is maintained in this repository for transparency and verification.
-
-Governance manuals, compliance procedures, enforcement policies, and sealed artifacts are maintained privately by AG Holdings Trust and are made available to regulators, trustees, and qualified counterparties under controlled access.
