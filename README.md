@@ -66,3 +66,28 @@ AGH Trust provides sovereign stewardship and governance oversight
 for affiliated entities within the MODX ecosystem.
 
 © 2025 AG Holdings Trust | MODX Sovereign Technologies
+
+# MODX — Governed Financial Infrastructure
+
+MODX is a sovereign financial infrastructure platform designed to operate under long-term governance, regulatory oversight, and institutional compliance.
+
+MODX provides:
+
+- Authority-controlled Proof-of-Authority (POA) execution  
+- Verifiable observability and auditability  
+- Tokenized financial instruments and settlement rails  
+- Long-horizon governance alignment  
+
+## Governance & Oversight
+
+MODX is governed by **AG Holdings Trust (AGHT)**, an independent trust structure responsible for:
+
+- Authority issuance and revocation  
+- Compliance enforcement  
+- Trustee oversight  
+- Regulatory engagement  
+
+Public technical documentation is maintained here for transparency and verification.
+
+**Governance manuals, compliance procedures, enforcement policies, and sealed artifacts are maintained privately by AG Holdings Trust and are made available to regulators, trustees, and qualified counterparties under controlled access.**
+
