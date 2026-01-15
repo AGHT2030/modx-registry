@@ -1,15 +1,15 @@
 ## modx-registry
 
-Public registry and pre-launch disclosures for the MODX governed financial, governance, and security platform
+Public Registry & Pre-Launch Disclosures for MODX Governed Financial Infrastructure
 
 Authoritative Public Disclosure Repository
-This repository serves as the canonical public record for MODX pre-launch infrastructure, governance posture, and transparency disclosures.
+This repository serves as the canonical public record for MODX pre-launch infrastructure, governance posture, security architecture, and transparency disclosures.
 
 ## MODX — Governed Financial Infrastructure
 
 MODX is a governed financial infrastructure platform designed to operate under long-term authority control, regulatory alignment, and institutional oversight.
 
-Unlike application-centric platforms, MODX is structured to govern execution itself, separating governance, authority, execution, routing, custody, and observability layers to support regulated financial activity at scale.
+Unlike application-centric platforms, MODX is structured to govern execution itself, deliberately separating governance, authority, routing, execution, custody, and observability layers to support regulated financial activity at scale.
 
 Competitors build products. MODX governs the system those products run on.
 
@@ -21,10 +21,10 @@ Authority-controlled Proof-of-Authority (POA) execution
 Delegated, scoped, and time-bounded authority with explicit issuance, revocation, and suspension controls
 
 Governed execution routing (MODLINK)
-Policy-enforced routing layer that connects governance decisions, POA rules, and execution telemetry
+A policy-enforced routing layer that connects governance decisions, POA rules, and real-time execution telemetry
 
 Governance custody & access (CoinPurse)
-Trustee-controlled access layer for authority custody, sealed documents, and regulated key activation
+Trustee-controlled access layer for authority custody, sealed governance materials, and regulated digital key activation
 
 Verifiable observability and auditability
 Continuous telemetry, immutable event logging, and audit-ready transparency for regulator and trustee review
@@ -45,7 +45,6 @@ Trustee and administrator oversight
 Regulatory engagement and examination readiness
 Long-term system integrity and continuity
 Public technical documentation is maintained in this repository for transparency and verification.
-
 Authoritative governance instruments, compliance manuals, enforcement records, and sealed artifacts are maintained privately by AGHT and are available to regulators, trustees, and qualified counterparties under controlled access.
 
 ## Architecture Overview — Governed Financial Infrastructure
@@ -58,6 +57,7 @@ This separation ensures that no single application, wallet, operator, or product
 1. Governance Layer (Trust-Controlled)
 
 AG Holdings Trust (AGHT) oversight
+
 Trustee and compliance authority
 Policy definition, enforcement, and escalation
 Long-term governance horizon (continuity by design)
@@ -72,8 +72,7 @@ Emergency kill-switch capability
 3. Governing Router Layer (MODLINK)
 
 Policy-enforced execution router
-
-Connects governance decisions to real execution
+Connects governance decisions to live execution
 Enforces POA scope and validity at runtime
 Emits immutable execution telemetry and audit records
 Supports DAO governance enforcement paths
@@ -90,7 +89,7 @@ Deterministic execution paths operating only under valid authority
 Trustee-controlled authority custody
 Secure access to sensitive governance materials
 Activation point for digital keys under governance rules
-Separation between governance access and consumer activity
+Separation between governance access and consumer financial activity
 CoinPurse functions as a governance access control system, not merely a wallet.
 
 6. Observability & Audit Layer
@@ -109,6 +108,7 @@ POA is the mechanism by which execution authority is delegated, monitored, enfor
 Public POA Characteristics
 
 Authority is issued, not assumed
+
 Authority is explicitly scoped to defined actions
 Authority is time-limited with enforced expiration
 Authority is revocable or suspendable at any time
@@ -132,10 +132,10 @@ MODLINK:
 
 Enforces POA rules at execution time
 Routes actions only when valid authority is present
-Connects DAO governance decisions to system execution
+Connects DAO governance decisions directly to system execution
 Produces immutable telemetry and audit artifacts
 
-MODLINK is both:
+MODLINK functions as both:
 
 A governance enforcement mechanism, and
 A proof layer demonstrating compliance in real time
@@ -162,14 +162,16 @@ Deterministic event emission
 Real-time metric generation
 Anomaly detection and alerting
 Audit-ready telemetry
+
 Observability supports:
+
 Regulatory examinations
-
 Trustee oversight
-
 Incident response
 Risk scoring and escalation
+
 Intentionally Not Public
+
 Credentials or secrets
 Key material
 Internal dashboards
@@ -181,7 +183,6 @@ This ensures transparency without creating attack surfaces.
 MODX is positioned as financial infrastructure, not an application.
 
 Governance is trust-anchored, not founder-dependent
-
 Authority is delegated, not assumed
 Execution is governed, not permissionless
 Compliance is designed-in, not bolted-on
@@ -199,16 +200,13 @@ Long-term system continuity
 Certain governance and compliance materials are intentionally not public and are maintained under trust control.
 
 These materials are indexed in the AGHT Data Room Index (PDF) and include:
-
 Trust formation and governance instruments
 Compliance manuals and regulatory exam binders
 POA issuance, revocation, and enforcement records
 Risk management and incident response documentation
 Audit trails and observability attestations
-
 📄 AGHT Data Room Index (PDF)
 Maintained privately by AG Holdings Trust (AGHT) and available to regulators, trustees, and qualified counterparties under controlled access.
-
 GitHub hosts public technical documentation only.
 AGHT maintains authoritative governance and compliance artifacts.
 
