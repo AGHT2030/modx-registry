@@ -9,9 +9,9 @@ maintained in the MODX Authoritative Public Disclosure Repository.
 
 | Document | Purpose | Status | Last Updated |
 |--------|--------|--------|--------------|
-| README.md | Registry overview & scope | Active | YYYY-MM-DD |
-| PRELAUNCH.md | Pre-launch disclosure | Active | YYYY-MM-DD |
-| CONTRACT_REGISTRY.md | Smart contract registry | Active | YYYY-MM-DD |
+| README.md | Registry overview & scope | Active | 2026-01-14 |
+| PRELAUNCH.md | Pre-launch disclosure | Active | 2025-12-25 |
+| CONTRACT_REGISTRY.md | Smart contract registry | Active | 2025-12-26 |
 
 ---
 
