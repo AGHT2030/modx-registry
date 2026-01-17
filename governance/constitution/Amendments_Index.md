@@ -21,4 +21,4 @@ Add amendment summaries here as they are published, for example:
 - Amendment 001 — Identity Sovereignty & SIT Governance *(public summary link goes here)*
 - Amendment 002 — Allocation Governance Updates *(public summary link goes here)*
 
-If you already have public amendment markdown files, list them here as links.
+
