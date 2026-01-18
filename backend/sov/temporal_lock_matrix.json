@@ -1,0 +1,15 @@
+{
+    "temporal_lock_matrix": {
+        "prevents": [
+            "rollback attacks",
+            "time-shift replay attempts",
+            "ledger rewind manipulation",
+            "cross-chain desync exploits"
+        ],
+        "locks": {
+            "ledger_lock": true,
+            "timestamp_lock": true,
+            "aura_time_guard": true
+        }
+    }
+}

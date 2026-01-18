@@ -1,0 +1,17 @@
+{
+  "trustees": [],
+  "quorumPolicy": {
+    "STANDARD": { "type": "MAJORITY" },
+    "EMERGENCY_REPLACEMENT": { "type": "SUPERMAJORITY" },
+    "CHANGE_QUORUM_POLICY": { "type": "SUPERMAJORITY" }
+  },
+  "votes": [],
+  "proxies": [],
+  "attestations": [
+    {
+      "id": "VE_MANIFEST_ATTESTATION",
+      "status": "PENDING"
+    }
+  ],
+  "docs": [...]
+}

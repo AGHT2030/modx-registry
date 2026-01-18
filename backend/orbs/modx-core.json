@@ -1,0 +1,6 @@
+{
+  "key": "modx-core",
+  "name": "MODX Core Engine",
+  "orbit": "core",
+  "url": "http://localhost:8083/api"
+}

@@ -1,0 +1,17 @@
+{
+    "anomaly_engine": {
+        "detects": [
+            "temporal inconsistencies",
+            "governance forks",
+            "fake universes",
+            "synthetic AI impersonators",
+            "token supply irregularities"
+        ],
+        "response_levels": {
+            "minor": "Auto-correct + log",
+            "moderate": "Freeze + require AURA verification",
+            "major": "Quarantine + Oversight escalation",
+            "critical": "Sovereign lockdown + Trust authority"
+        }
+    }
+}

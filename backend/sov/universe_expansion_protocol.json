@@ -1,0 +1,17 @@
+{
+    "universe_expansion_protocol": {
+        "allowed": true,
+        "requires": {
+            "constitution_approval": true,
+            "declaration_alignment": true,
+            "reserve_audit": true,
+            "aura_verification": true
+        },
+        "expansion_types": [
+            "New Galaxy",
+            "New Hybrid Layer",
+            "New Module Cluster",
+            "New Token Family"
+        ]
+    }
+}

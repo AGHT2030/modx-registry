@@ -1,0 +1,40 @@
+{
+    "modlinkGenome": {
+        "version": "3.0.0",
+        "timestamp": "{AUTO_GENERATED_AT_RUNTIME}",
+        "rootHash": "{UNIVERSE_REGISTRY_HASH}",
+        "governanceDNA": {
+            "constitution": "bound:true",
+            "declaration": "bound:true",
+            "antiImminentDomain": "active:true",
+            "successionFramework": "active:true",
+            "modxShield": "active:true",
+            "crossAIFirewall": "active:true",
+            "zeroTrustAIGateway": "active:true",
+            "hybridIntegrityLayer": "active:true"
+        },
+        "inheritanceRules": {
+            "autoAttachNewGalaxy": true,
+            "autoApplyShield": true,
+            "autoApplyKZ": true,
+            "autoRegisterGovernance": true,
+            "enforcementEngineRequired": true
+        },
+        "galaxyBindings": {
+            "CoinPurse": "constitution-bound",
+            "AIRS": "zero-trust + hybrid integrity",
+            "MODE": "hybrid integrity + crossAI lock",
+            "MODAStay": "full shield + safety escalation",
+            "CREATV": "creative integrity + broadcast shield",
+            "MODX": "core authority + enforcement hub",
+            "MODLINK": "governance spinal cord",
+            "AURA": "constitutional guardian"
+        },
+        "fallbackProtocols": {
+            "CEP-X": "Constitutional Emergency Protocol – Imminent Domain Defense",
+            "AutoQuarantine": true,
+            "ThreatIsolation": true,
+            "AURAOverrideOnThreat": true
+        }
+    }
+}

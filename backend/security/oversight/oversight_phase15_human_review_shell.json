@@ -1,0 +1,17 @@
+{
+    "phase": 15,
+    "human_oversight_enabled": true,
+    "ai_checks_for_bad_actors": true,
+    "aura_double_verification": true,
+    "review_levels": {
+        "level1": "routine",
+        "level2": "anomaly",
+        "level3": "constitutional_risk",
+        "level4": "full_lockdown"
+    },
+    "rules": {
+        "no_single_entity_override": true,
+        "founder_identity_required": true,
+        "audit_logging": "non_optional"
+    }
+}

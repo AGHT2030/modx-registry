@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "goal": "Allow expansion while maintaining constitutional integrity.",
+    "rules": {
+        "new_chains_require_KZ_review": true,
+        "new_hybrids_require_licensing": true,
+        "AI_expansion_requires_Oversight_approval": true
+    },
+    "blocked_expansions": [
+        "rogue_ai_integrations",
+        "unauthorized_api_handoffs",
+        "external_governance_merges"
+    ]
+}

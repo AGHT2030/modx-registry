@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "monitors": [
+        "partner_behavior",
+        "booking_flows",
+        "CREATV_stream_patterns",
+        "AIRS_home_service_patterns"
+    ],
+    "alerts": {
+        "low": "hybrid-warning",
+        "medium": "KZ-review",
+        "high": "Oversight-review"
+    }
+}

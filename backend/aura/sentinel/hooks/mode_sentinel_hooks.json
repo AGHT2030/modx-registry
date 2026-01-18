@@ -1,0 +1,21 @@
+{
+    "modeSentinelHooks": {
+        "watchEvents": [
+            "MODE_BOOKING_EVENT",
+            "MODE_REVENUE_FLOW",
+            "MODE_FRANCHISE_LINK",
+            "MODE_EXTERNAL_PARTNER_REQUEST"
+        ],
+        "riskSignals": [
+            "foreignAiProbe",
+            "unauthorizedOverride",
+            "dataAnomaly",
+            "policyInconsistency"
+        ],
+        "actions": {
+            "autoFreeze": true,
+            "autoFlag": true,
+            "autoEscalate": true
+        }
+    }
+}

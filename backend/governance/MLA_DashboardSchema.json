@@ -1,0 +1,13 @@
+{
+    "proposalId": "string",
+    "action": "string",
+    "domain": "string",
+    "status": "PRE-FLIGHT | ANALYSIS | QUEUED | TIMELOCK | EXECUTE | EXECUTED | AUDIT | ARCHIVE",
+    "riskLevel": "LOW | MEDIUM | HIGH",
+    "parameters": {},
+    "sentinelScore": "number",
+    "auraRecommendation": "string",
+    "estimatedImpact": "string",
+    "timestamp": "number",
+    "executedBy": "string"
+}

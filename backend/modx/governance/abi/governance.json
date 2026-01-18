@@ -1,0 +1,144 @@
+[
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "proposalId",
+                "type": "uint256"
+            },
+            {
+                "indexed": true,
+                "name": "proposer",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "targets",
+                "type": "address[]"
+            },
+            {
+                "indexed": false,
+                "name": "values",
+                "type": "uint256[]"
+            },
+            {
+                "indexed": false,
+                "name": "signatures",
+                "type": "string[]"
+            },
+            {
+                "indexed": false,
+                "name": "calldatas",
+                "type": "bytes[]"
+            },
+            {
+                "indexed": false,
+                "name": "description",
+                "type": "string"
+            }
+        ],
+        "name": "ProposalCreated",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "proposalId",
+                "type": "uint256"
+            }
+        ],
+        "name": "ProposalQueued",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "proposalId",
+                "type": "uint256"
+            }
+        ],
+        "name": "ProposalExecuted",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "voter",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "proposalId",
+                "type": "uint256"
+            },
+            {
+                "indexed": false,
+                "name": "support",
+                "type": "uint8"
+            },
+            {
+                "indexed": false,
+                "name": "weight",
+                "type": "uint256"
+            },
+            {
+                "indexed": false,
+                "name": "reason",
+                "type": "string"
+            }
+        ],
+        "name": "VoteCast",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "role",
+                "type": "bytes32"
+            },
+            {
+                "indexed": true,
+                "name": "account",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "sender",
+                "type": "address"
+            }
+        ],
+        "name": "RoleGranted",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "role",
+                "type": "bytes32"
+            },
+            {
+                "indexed": true,
+                "name": "account",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "sender",
+                "type": "address"
+            }
+        ],
+        "name": "RoleRevoked",
+        "type": "event"
+    }
+]

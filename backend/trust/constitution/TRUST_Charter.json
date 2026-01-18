@@ -1,0 +1,64 @@
+{
+    "version": "1.0.0",
+    "charterName": "AIMAL GLOBAL HOLDINGS | TRUST CONSTITUTION",
+    "articles": {
+        "ARTICLE_I_IDENTITY_PROTECTION": {
+            "summary": "No true identity may ever be reconstructed.",
+            "rules": [
+                "No module may access raw identity.",
+                "User identity must remain synthetic at all times.",
+                "Cross-event correlation of personal identity is prohibited."
+            ]
+        },
+        "ARTICLE_II_INTENT_INTEGRITY": {
+            "summary": "User intent must not be altered or coerced.",
+            "rules": [
+                "No algorithm may modify user emotional or intent inputs.",
+                "Twin guidance must preserve user autonomy.",
+                "No influence engines may alter intent."
+            ]
+        },
+        "ARTICLE_III_TWIN_AUTONOMY": {
+            "summary": "Ari and Agador are protected from coercive data extraction.",
+            "rules": [
+                "Twins may not output identity-linked data.",
+                "Twins may not reveal internal logs beyond safe-event format.",
+                "Twin output must follow PQC integrity rules."
+            ]
+        },
+        "ARTICLE_IV_SURVEILLANCE_IMMUNITY": {
+            "summary": "Defense against Palantir, Paragon, Clearview, PenLink, and all identity-inference systems.",
+            "rules": [
+                "No behavioral fingerprinting allowed.",
+                "No location triangulation allowed.",
+                "No data may be provided for OSINT-style reconstruction.",
+                "Geo-blur must always be applied.",
+                "Fingerprinting, entropy capture, model inversion, and user re-identification are forbidden."
+            ]
+        },
+        "ARTICLE_V_ZERO_CROSS_TRACKING": {
+            "summary": "Galaxies may not track across each other.",
+            "rules": [
+                "No Galaxy may share user session identifiers.",
+                "Event tokens must always be synthetic.",
+                "No persistent identifiers allowed across orbits."
+            ]
+        },
+        "ARTICLE_VI_SUPREME_JURISDICTION": {
+            "summary": "TRUST Court is the highest authority.",
+            "rules": [
+                "Court rulings override all modules.",
+                "Court may issue lockdown rulings.",
+                "Court is the only module allowed to access constitution."
+            ]
+        },
+        "ARTICLE_VII_IMMUTABILITY": {
+            "summary": "Governance changes require 2-of-3 Root Authority Keys.",
+            "rules": [
+                "No file deletion allowed.",
+                "No modification without multi-sign PQC approval.",
+                "All changes logged transparently."
+            ]
+        }
+    }
+}

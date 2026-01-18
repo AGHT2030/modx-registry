@@ -1,0 +1,7 @@
+{
+    "xr_enabled": true,
+    "mobile_ar": true,
+    "vendor_spatial_mapping": true,
+    "guest_wayfinding": true,
+    "pulse_vr_overlays": "planned"
+}

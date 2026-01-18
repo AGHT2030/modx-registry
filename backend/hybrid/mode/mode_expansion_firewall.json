@@ -1,0 +1,17 @@
+{
+    "modeExpansionFirewall": {
+        "allowExpansion": true,
+        "rules": {
+            "noUnauthorizedAIExpansion": true,
+            "noExternalSystemModification": true,
+            "expansionRequiresConstitutionalCheck": true,
+            "aiDoubleValidation": true,
+            "oversightApproval": true
+        },
+        "protection": {
+            "autoRollback": true,
+            "autoTokenReversal": true,
+            "autoFranchiseFreeze": true
+        }
+    }
+}

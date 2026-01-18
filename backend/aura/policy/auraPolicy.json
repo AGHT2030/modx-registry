@@ -1,0 +1,24 @@
+{
+    "allowed_actions": [
+        "analyze",
+        "summarize",
+        "report",
+        "advise"
+    ],
+    "restricted_actions": [
+        "modify_db",
+        "shutdown",
+        "transfer_funds"
+    ],
+    "max_runtime_ms": 3000,
+    "roles": {
+        "Agador": [
+            "Energy",
+            "Governance"
+        ],
+        "Ari": [
+            "Education",
+            "Creativity"
+        ]
+    }
+}

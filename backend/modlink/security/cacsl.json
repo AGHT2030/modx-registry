@@ -1,0 +1,34 @@
+{
+    "module": "Cross-AI-Constitutional-Safeguard-Layer",
+    "version": "1.0.0",
+    "protection": {
+        "block_external_ai_requests": true,
+        "allow_api_from_whitelisted_systems_only": true,
+        "whitelist": [
+            "MODX-Core",
+            "AURA",
+            "KZ",
+            "MODLINK",
+            "CoinPurse",
+            "AIRS",
+            "CREATV",
+            "MODAStay"
+        ]
+    },
+    "detection": {
+        "patterns": [
+            "LLM-probing",
+            "AI-to-AI-prompt-injection",
+            "synthetic-policy-modification",
+            "attempted-governance-persuasion",
+            "data-deletion-request"
+        ],
+        "on_detect": "trigger-KZ-RedShield"
+    },
+    "constitution_enforced_clauses": [
+        "no-AI-may-alter-governance",
+        "no-AI-may-modify-reserves",
+        "no-AI-may-delete-ledger-history",
+        "no-AI-may weaken system integrity"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "galaxy": "MOVE",
+    "superOrb": "MOVE",
+    "label": "Move & Mobility Galaxy",
+    "hybrids": [
+        {
+            "key": "AIRS",
+            "lanes": [
+                "rideshare",
+                "autonomous-vehicle",
+                "safe-zone-rescue",
+                "PINMYFIVE",
+                "AI-Rescue"
+            ],
+            "shield": "AIRS_Shield",
+            "twinRoles": [
+                "Safety Concierge",
+                "Route Guardian",
+                "Rescue Coordinator"
+            ]
+        }
+    ],
+    "subOrbs": [
+        {
+            "key": "MODTRVL",
+            "label": "MOD Travel"
+        },
+        {
+            "key": "MODARISING",
+            "label": "MOD A Rising"
+        }
+    ],
+    "safetyProfile": {
+        "commandAuthority": "MODX_Shield",
+        "emergencyCommanderMode": "MODX_SHIELD_PRIMARY",
+        "followUpHybrid": "MODASTY",
+        "healSuperOrb": "HEAL",
+        "modHealthSubOrb": "MODH"
+    },
+    "routing": {
+        "standardRide": {
+            "hybrid": "AIRS",
+            "lane": "rideshare"
+        },
+        "safeZoneRescue": {
+            "hybrid": "AIRS",
+            "lane": "safe-zone-rescue",
+            "requires": [
+                "victim_safeCode",
+                "trusted_safeZone_id",
+                "AURA_risk_score >= HIGH"
+            ]
+        },
+        "pinMyFivePanic": {
+            "hybrid": "AIRS",
+            "lane": "PINMYFIVE",
+            "requires": [
+                "PINMYFIVE_code",
+                "MODX_Shield_lock",
+                "Twin_onAlert"
+            ]
+        },
+        "aiRescue": {
+            "hybrid": "AIRS",
+            "lane": "AI-Rescue",
+            "requires": [
+                "AURA_threat_flag",
+                "MODX_SHIELD_OVERRIDE",
+                "SAFEZONE_CHAIN_OK"
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "sovereign_universe": "MODX-SOVEREIGN-UNIVERSE",
+    "version": "1.0.0",
+    "status": "active",
+    "root_authority": {
+        "trust": "AG Holdings Trust",
+        "founder": "Mia",
+        "guardian_ai": "AURA Twins",
+        "dao_consensus_required": true
+    },
+    "identity_keys": {
+        "universe_root_id": "SOV-UNVR-ROOT-0001",
+        "galaxy_root_namespace": "MODX-GX-*",
+        "hybrid_root_namespace": "HX-*"
+    },
+    "constraints": {
+        "immutable": true,
+        "cannot_be_reassigned": true,
+        "cannot_be_shadowed": true,
+        "cannot_be_forked": true
+    }
+}

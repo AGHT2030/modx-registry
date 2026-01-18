@@ -1,0 +1,297 @@
+[2025-10-28T23:37:13.968Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761694633964.json"}
+[2025-10-28T23:37:14.001Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-28T23:37:14.000Z","txHash":null,"address":null,"projectId":"TEST-1761694633964","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761694633964"}}
+[2025-10-28T23:48:28.785Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761695308781.json"}
+[2025-10-28T23:48:28.818Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-28T23:48:28.817Z","txHash":null,"address":null,"projectId":"TEST-1761695308781","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761695308781"}}
+[2025-10-28T23:48:28.826Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761695308781","idem":"e48ff907d4c2434c9c1bdb6a074eecfc9f73374fd2deab0fd633b40acdb04d02"}
+[2025-10-28T23:48:29.034Z] [WARN] Custodian notify /v1/projects/intake retry 1/3 — {"waitMs":400,"message":"getaddrinfo ENOTFOUND custodian.sandbox"}
+[2025-10-28T23:48:29.451Z] [WARN] Custodian notify /v1/projects/intake retry 2/3 — {"waitMs":800,"message":"getaddrinfo ENOTFOUND custodian.sandbox"}
+[2025-10-28T23:48:30.266Z] [WARN] Custodian notify /v1/projects/intake retry 3/3 — {"waitMs":1600,"message":"getaddrinfo ENOTFOUND custodian.sandbox"}
+[2025-10-29T00:07:13.268Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761696433264.json"}
+[2025-10-29T00:07:13.297Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T00:07:13.296Z","txHash":null,"address":null,"projectId":"TEST-1761696433264","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761696433264"}}
+[2025-10-29T00:07:13.306Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761696433264","idem":"b4e3fd034e080ca33adb56a01251a131527bf43301d2678bc1ec550c5ceac103"}
+[2025-10-29T00:07:13.531Z] [WARN] Custodian notify /v1/projects/intake retry 1/3 — {"waitMs":400,"message":"getaddrinfo ENOTFOUND custodian.sandbox"}
+[2025-10-29T00:07:13.954Z] [WARN] Custodian notify /v1/projects/intake retry 2/3 — {"waitMs":800,"message":"getaddrinfo ENOTFOUND custodian.sandbox"}
+[2025-10-29T00:07:14.768Z] [WARN] Custodian notify /v1/projects/intake retry 3/3 — {"waitMs":1600,"message":"getaddrinfo ENOTFOUND custodian.sandbox"}
+[2025-10-29T00:23:44.163Z] [INFO] Simulated Fidelity write → local file mode active — {}
+[2025-10-29T00:30:34.699Z] [INFO] Simulated Fidelity write → local file mode active — {}
+[2025-10-29T00:34:07.515Z] [INFO] Simulated Fidelity write → local file mode active — {}
+[2025-10-29T00:35:53.097Z] [INFO] Simulated Fidelity write → local file mode active — {}
+[2025-10-29T00:35:56.111Z] [INFO] Simulated Fidelity write → local file mode active — {}
+[2025-10-29T00:51:21.591Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761699081585.json"}
+[2025-10-29T00:51:21.628Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T00:51:21.625Z","txHash":null,"address":null,"projectId":"TEST-1761699081585","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761699081585"}}
+[2025-10-29T00:51:21.634Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761699081585","idem":"85c7af44d8b82abb3d2713b065199bd79691b8131630d893197f050678ef4f48"}
+[2025-10-29T00:51:21.652Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761699081585"}
+[2025-10-29T00:52:17.185Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761699137180.json"}
+[2025-10-29T00:52:17.433Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T00:52:17.431Z","txHash":null,"address":null,"projectId":"TEST-1761699137180","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761699137180"}}
+[2025-10-29T00:52:17.502Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761699137180","idem":"e0e53560c99c54149b5a8e029626b6843c012ad662297ea872a068535f3b11cb"}
+[2025-10-29T00:52:17.578Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761699137180"}
+[2025-10-29T01:09:06.445Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761700146440.json"}
+[2025-10-29T01:09:06.481Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T01:09:06.479Z","txHash":null,"address":null,"projectId":"TEST-1761700146440","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761700146440"}}
+[2025-10-29T01:09:06.490Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761700146440","idem":"d94aeac2e31b0667bf01129d49cc66584c4b2a941223e1be72896c535900096d"}
+[2025-10-29T01:09:06.521Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761700146440"}
+[2025-10-29T01:09:06.533Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T01:09:07.443Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T01:09:07.451Z] [INFO] Vault write successful — {"category":"contracts","filename":"TEST-1761700146440_contract.json"}
+[2025-10-29T01:09:07.464Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T01:09:07.463Z","txHash":"c9a3c70aeee235150be9aab7b1a4dcb3","address":"rd5836bb459a4d63357fb1cdd6b194de9e28c76","projectId":"TEST-1761700146440","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761700146440","address":"rd5836bb459a4d63357fb1cdd6b194de9e28c76","txId":"c9a3c70aeee235150be9aab7b1a4dcb3"}}
+[2025-10-29T01:09:07.488Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761700146440","chain":"XRPL-testnet","contractAddress":"rd5836bb459a4d63357fb1cdd6b194de9e28c76"}
+[2025-10-29T01:09:07.514Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761700146440","chain":"XRPL-testnet","contractAddress":"rd5836bb459a4d63357fb1cdd6b194de9e28c76"}
+[2025-10-29T01:32:31.042Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761701551038.json"}
+[2025-10-29T01:32:31.067Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T01:32:31.065Z","txHash":null,"address":null,"projectId":"TEST-1761701551038","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761701551038"}}
+[2025-10-29T01:32:31.072Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761701551038","idem":"9f9306b2467cadc6ddf357c9fca836526a21907ad044cecb97a7c1b9ff46eebd"}
+[2025-10-29T01:32:31.082Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761701551038"}
+[2025-10-29T01:42:29.802Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761702149798.json"}
+[2025-10-29T01:46:43.038Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761702403033.json"}
+[2025-10-29T01:46:43.180Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T01:46:43.174Z","txHash":null,"address":null,"projectId":"TEST-1761702403033","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761702403033"}}
+[2025-10-29T01:46:43.187Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761702403033","idem":"944714b7b8d72e6f4bbb8e7ff66685dc957c07642db42dc4b73c78568555ba7b"}
+[2025-10-29T01:46:43.195Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761702403033"}
+[2025-10-29T01:46:43.197Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761702403033","chain":"XRPL-testnet"}
+[2025-10-29T01:46:43.207Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T01:46:45.222Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T01:46:45.225Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761702403033","chain":"XRPL-testnet","err":"Non-base58 character"}
+[2025-10-29T02:09:44.587Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761703784582.json"}
+[2025-10-29T02:09:44.607Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T02:09:44.605Z","txHash":null,"address":null,"projectId":"TEST-1761703784582","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761703784582"}}
+[2025-10-29T02:09:44.612Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761703784582","idem":"108bebdadfc85c5639c933f671adf93b884b7f5b2f70ceca60688394f611410d"}
+[2025-10-29T02:09:44.619Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761703784582"}
+[2025-10-29T02:09:44.634Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761703784582","chain":"XRPL-testnet"}
+[2025-10-29T02:09:44.646Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T02:09:46.757Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T02:09:46.760Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761703784582","chain":"XRPL-testnet","err":"Non-base58 character"}
+[2025-10-29T02:16:57.818Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761704217814.json"}
+[2025-10-29T02:16:57.848Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T02:16:57.846Z","txHash":null,"address":null,"projectId":"TEST-1761704217814","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761704217814"}}
+[2025-10-29T02:16:57.854Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761704217814","idem":"35efac001604a4ca17106ec663797a98746686ae347cf07ccfdb8f4413663bcf"}
+[2025-10-29T02:16:57.864Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761704217814"}
+[2025-10-29T02:16:57.870Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761704217814","chain":"XRPL-testnet"}
+[2025-10-29T02:16:57.874Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T02:16:59.767Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T02:16:59.810Z] [INFO] XRPL Mint — {"projectId":"TEST-1761704217814","msg":"Submitting to XRPL..."}
+[2025-10-29T02:16:59.870Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761704217814","err":"Account not found."}
+[2025-10-29T02:17:00.046Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761704217814","chain":"XRPL-testnet","err":"Account not found."}
+[2025-10-29T04:39:27.072Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761712767065.json"}
+[2025-10-29T04:39:27.094Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T04:39:27.092Z","txHash":null,"address":null,"projectId":"TEST-1761712767065","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761712767065"}}
+[2025-10-29T04:39:27.100Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761712767065","idem":"9bdc44b806e1f8b799ec9624f89dd7be2a729f3714910db596fad945e1fa594d"}
+[2025-10-29T04:39:27.110Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761712767065"}
+[2025-10-29T04:39:27.112Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761712767065","chain":"XRPL-testnet"}
+[2025-10-29T04:39:27.117Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T04:39:29.040Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T04:39:29.084Z] [INFO] XRPL Mint — {"projectId":"TEST-1761712767065","msg":"Submitting to XRPL..."}
+[2025-10-29T04:39:29.148Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761712767065","err":"Account not found."}
+[2025-10-29T04:39:29.302Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761712767065","chain":"XRPL-testnet","err":"Account not found."}
+[2025-10-29T04:46:51.755Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761713211752.json"}
+[2025-10-29T04:46:51.771Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T04:46:51.769Z","txHash":null,"address":null,"projectId":"TEST-1761713211752","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761713211752"}}
+[2025-10-29T04:46:51.777Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761713211752","idem":"89d94c9df5e7f8de0f991ec1723c79cc4bd34b93732408ccc1cdeb6e43901d3c"}
+[2025-10-29T04:46:51.781Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761713211752"}
+[2025-10-29T04:46:51.783Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761713211752","chain":"XRPL-testnet"}
+[2025-10-29T04:46:51.787Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T04:46:53.381Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T04:46:53.420Z] [INFO] XRPL Mint — {"projectId":"TEST-1761713211752","msg":"Submitting to XRPL..."}
+[2025-10-29T04:46:53.471Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761713211752","err":"Account not found."}
+[2025-10-29T04:46:53.628Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761713211752","chain":"XRPL-testnet","err":"Account not found."}
+[2025-10-29T04:56:06.470Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761713766467.json"}
+[2025-10-29T04:56:06.488Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T04:56:06.486Z","txHash":null,"address":null,"projectId":"TEST-1761713766467","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761713766467"}}
+[2025-10-29T04:56:06.493Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761713766467","idem":"2d91f2b204058c286ed8b5f53b33fc84441b7c6cea11ebdf5cd3455c1a5db34f"}
+[2025-10-29T04:56:06.496Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761713766467"}
+[2025-10-29T04:56:06.498Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761713766467","chain":"XRPL-testnet"}
+[2025-10-29T04:56:06.502Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T04:56:08.243Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T04:56:08.283Z] [INFO] XRPL Mint — {"projectId":"TEST-1761713766467","msg":"Submitting to XRPL..."}
+[2025-10-29T04:56:08.352Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761713766467","err":"Account not found."}
+[2025-10-29T04:56:08.554Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761713766467","chain":"XRPL-testnet","err":"Account not found."}
+[2025-10-29T05:05:02.738Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761714302735.json"}
+[2025-10-29T05:05:02.766Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T05:05:02.763Z","txHash":null,"address":null,"projectId":"TEST-1761714302735","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761714302735"}}
+[2025-10-29T05:05:02.772Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761714302735","idem":"f049b98ca314a6c1b9ab6f5724fab5d9cc130cf549e2f3f34b76bd057f8cf64e"}
+[2025-10-29T05:05:02.777Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761714302735"}
+[2025-10-29T05:05:02.781Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761714302735","chain":"XRPL-testnet"}
+[2025-10-29T05:05:02.788Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T05:05:04.569Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T05:05:04.610Z] [INFO] XRPL Mint — {"projectId":"TEST-1761714302735","msg":"Submitting to XRPL..."}
+[2025-10-29T05:05:04.663Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761714302735","err":"Account not found."}
+[2025-10-29T05:05:04.818Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761714302735","chain":"XRPL-testnet","err":"Account not found."}
+[2025-10-29T05:48:24.053Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761716904050.json"}
+[2025-10-29T05:48:24.067Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T05:48:24.066Z","txHash":null,"address":null,"projectId":"TEST-1761716904050","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761716904050"}}
+[2025-10-29T05:48:24.069Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761716904050","idem":"553f7f8f76408868303bfd19d6cebc57e642c709ee8dd1d159e8324bf227d995"}
+[2025-10-29T05:48:24.074Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761716904050"}
+[2025-10-29T05:48:24.075Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761716904050","chain":"XRPL-testnet"}
+[2025-10-29T05:48:24.079Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T05:48:25.616Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T05:48:25.676Z] [INFO] XRPL Mint — {"projectId":"TEST-1761716904050","msg":"Submitting to XRPL..."}
+[2025-10-29T05:49:26.809Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761716904050","err":"The latest ledger sequence 11885531 is greater than the transaction's LastLedgerSequence (11885530).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T05:49:26.906Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761716904050","chain":"XRPL-testnet","err":"The latest ledger sequence 11885531 is greater than the transaction's LastLedgerSequence (11885530).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T05:58:03.739Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761717483733.json"}
+[2025-10-29T05:58:03.756Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T05:58:03.754Z","txHash":null,"address":null,"projectId":"TEST-1761717483733","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761717483733"}}
+[2025-10-29T05:58:03.759Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761717483733","idem":"d91d004448efb294ad342d183b6be8333f21fed4a87853c570b6b525df7d3a6e"}
+[2025-10-29T05:58:03.763Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761717483733"}
+[2025-10-29T05:58:03.764Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761717483733","chain":"XRPL-testnet"}
+[2025-10-29T05:58:03.768Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T05:58:05.364Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T05:58:05.400Z] [INFO] XRPL Mint — {"projectId":"TEST-1761717483733","msg":"Submitting to XRPL..."}
+[2025-10-29T05:58:36.526Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761717483733","err":"The latest ledger sequence 11885714 is greater than the transaction's LastLedgerSequence (11885713).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T05:58:36.625Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761717483733","chain":"XRPL-testnet","err":"The latest ledger sequence 11885714 is greater than the transaction's LastLedgerSequence (11885713).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T07:30:25.059Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761723025055.json"}
+[2025-10-29T07:30:25.078Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T07:30:25.076Z","txHash":null,"address":null,"projectId":"TEST-1761723025055","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761723025055"}}
+[2025-10-29T07:30:25.082Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761723025055","idem":"cefacd7dbfa274a47924e44e636b1017ca1ced69e60466bf427bda2274b3675f"}
+[2025-10-29T07:30:25.085Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761723025055"}
+[2025-10-29T07:30:25.087Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761723025055","chain":"XRPL-testnet"}
+[2025-10-29T07:30:25.090Z] [INFO] Connecting to XRPL testnet at wss://s.altnet.rippletest.net:51233... — {}
+[2025-10-29T07:30:26.826Z] [SUCCESS] XRPL connection established — {"serverUrl":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T07:30:26.873Z] [INFO] XRPL Mint — {"projectId":"TEST-1761723025055","msg":"Submitting to XRPL..."}
+[2025-10-29T07:30:58.036Z] [ERROR] XRPL Mint failed — {"projectId":"TEST-1761723025055","err":"The latest ledger sequence 11887545 is greater than the transaction's LastLedgerSequence (11887544).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T07:30:58.140Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761723025055","chain":"XRPL-testnet","err":"The latest ledger sequence 11887545 is greater than the transaction's LastLedgerSequence (11887544).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T07:35:04.136Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761723304133.json"}
+[2025-10-29T07:35:04.155Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T07:35:04.153Z","txHash":null,"address":null,"projectId":"TEST-1761723304133","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761723304133"}}
+[2025-10-29T07:35:04.160Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761723304133","idem":"fb78b9abc7fc8901d7c60ad98018b069c1aa9169a6c45ad19b18b64290732366"}
+[2025-10-29T07:35:04.165Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761723304133"}
+[2025-10-29T07:35:04.168Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761723304133","chain":"XRPL-testnet"}
+[2025-10-29T07:35:04.784Z] [INFO] XRPL Connected — {"url":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T07:35:05.078Z] [INFO] XRPL Mint — {"projectId":"TEST-1761723304133","msg":"Submitting transaction to XRPL..."}
+[2025-10-29T07:35:37.267Z] [WARN] Ledger closed mid-transaction, retrying... — {}
+[2025-10-29T07:36:11.655Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761723304133","chain":"XRPL-testnet","err":"The latest ledger sequence 11887649 is greater than the transaction's LastLedgerSequence (11887648).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T07:43:48.322Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761723828317.json"}
+[2025-10-29T07:43:48.337Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T07:43:48.335Z","txHash":null,"address":null,"projectId":"TEST-1761723828317","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761723828317"}}
+[2025-10-29T07:43:48.339Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761723828317","idem":"1344a5755678d522216568988e5930c84f58a0ffbc47b1009e180ec11a0f1601"}
+[2025-10-29T07:43:48.342Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761723828317"}
+[2025-10-29T07:43:48.343Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761723828317","chain":"XRPL-testnet"}
+[2025-10-29T07:43:48.965Z] [INFO] XRPL Connected — {"url":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T07:43:49.249Z] [INFO] XRPL Mint — {"projectId":"TEST-1761723828317","msg":"Submitting transaction to XRPL..."}
+[2025-10-29T07:45:06.689Z] [WARN] Ledger closed mid-transaction, retrying... — {}
+[2025-10-29T07:46:25.347Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761723828317","chain":"XRPL-testnet","err":"The latest ledger sequence 11887853 is greater than the transaction's LastLedgerSequence (11887852).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T07:49:10.976Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761724150971.json"}
+[2025-10-29T07:49:10.998Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T07:49:10.996Z","txHash":null,"address":null,"projectId":"TEST-1761724150971","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761724150971"}}
+[2025-10-29T07:49:11.005Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761724150971","idem":"c8e66de4086f7252844caaa8df96ebaa728d25bf2ff846fe7b6f305589aa5e5a"}
+[2025-10-29T07:49:11.022Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761724150971"}
+[2025-10-29T07:49:11.024Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761724150971","chain":"XRPL-testnet"}
+[2025-10-29T07:49:12.885Z] [INFO] XRPL Connected — {"url":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T07:49:13.225Z] [INFO] XRPL Mint — {"projectId":"TEST-1761724150971","msg":"Submitting transaction (attempt 1)..."}
+[2025-10-29T07:50:29.539Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":1}
+[2025-10-29T07:50:31.752Z] [INFO] XRPL Mint — {"projectId":"TEST-1761724150971","msg":"Submitting transaction (attempt 2)..."}
+[2025-10-29T07:53:05.766Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":2}
+[2025-10-29T07:53:08.041Z] [INFO] XRPL Mint — {"projectId":"TEST-1761724150971","msg":"Submitting transaction (attempt 3)..."}
+[2025-10-29T07:56:56.521Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":3}
+[2025-10-29T07:56:58.692Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761724150971","chain":"XRPL-testnet","err":"All XRPL submission attempts failed after 3 retries."}
+[2025-10-29T10:33:52.446Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761734032423.json"}
+[2025-10-29T10:33:52.519Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T10:33:52.516Z","txHash":null,"address":null,"projectId":"TEST-1761734032423","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761734032423"}}
+[2025-10-29T10:33:52.525Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761734032423","idem":"ca16f9b4f5b243870244d7639de26f0841cdd0a7222cd574d7d1be0cee6aa6c7"}
+[2025-10-29T10:33:52.534Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761734032423"}
+[2025-10-29T10:33:52.546Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761734032423","chain":"XRPL-testnet"}
+[2025-10-29T10:33:54.439Z] [INFO] XRPL Connected — {"url":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T10:33:54.761Z] [INFO] XRPL Mint — {"projectId":"TEST-1761734032423","msg":"Submitting transaction (attempt 1)..."}
+[2025-10-29T10:35:12.173Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":1}
+[2025-10-29T10:35:14.417Z] [INFO] XRPL Mint — {"projectId":"TEST-1761734032423","msg":"Submitting transaction (attempt 2)..."}
+[2025-10-29T10:37:47.984Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":2}
+[2025-10-29T10:37:50.236Z] [INFO] XRPL Mint — {"projectId":"TEST-1761734032423","msg":"Submitting transaction (attempt 3)..."}
+[2025-10-29T10:41:52.335Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":3}
+[2025-10-29T10:41:54.568Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761734032423","chain":"XRPL-testnet","err":"All XRPL submission attempts failed after 3 retries."}
+[2025-10-29T10:41:56.075Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761734516073.json"}
+[2025-10-29T10:41:56.091Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T10:41:56.090Z","txHash":null,"address":null,"projectId":"TEST-1761734516073","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761734516073"}}
+[2025-10-29T10:41:56.094Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761734516073","idem":"1cc2808a5803cc5dfbd701b0eb9fd9ade1206027834ff899170866100976ebac"}
+[2025-10-29T10:41:56.101Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761734516073"}
+[2025-10-29T10:41:56.103Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761734516073","chain":"XRPL-testnet"}
+[2025-10-29T10:41:58.948Z] [INFO] XRPL Connected — {"url":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T10:41:59.270Z] [INFO] XRPL Mint — {"projectId":"TEST-1761734516073","msg":"Submitting transaction (attempt 1)..."}
+[2025-10-29T10:43:18.897Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":1}
+[2025-10-29T10:43:21.151Z] [INFO] XRPL Mint — {"projectId":"TEST-1761734516073","msg":"Submitting transaction (attempt 2)..."}
+[2025-10-29T10:45:56.949Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":2}
+[2025-10-29T10:45:59.317Z] [INFO] XRPL Mint — {"projectId":"TEST-1761734516073","msg":"Submitting transaction (attempt 3)..."}
+[2025-10-29T10:49:49.188Z] [WARN] Ledger closed mid-transaction, retrying with delay... — {"attempt":3}
+[2025-10-29T10:49:51.433Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761734516073","chain":"XRPL-testnet","err":"All XRPL submission attempts failed after 3 retries."}
+[2025-10-29T13:57:49.341Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761746269336.json"}
+[2025-10-29T13:57:49.363Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T13:57:49.360Z","txHash":null,"address":null,"projectId":"TEST-1761746269336","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761746269336"}}
+[2025-10-29T13:57:49.368Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761746269336","idem":"d38b3bfba23983efe303a6d3fb886de4d1f40b91560f212e50b9010b39f46757"}
+[2025-10-29T13:57:49.373Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761746269336"}
+[2025-10-29T13:57:49.375Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761746269336","chain":"XRPL-testnet"}
+[2025-10-29T13:57:50.231Z] [INFO] XRPL Connected — {"url":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T13:57:50.325Z] [INFO] XRPL Account Verified — {"address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","balance":"100000000"}
+[2025-10-29T13:57:50.550Z] [INFO] XRPL Mint — {"attempt":1,"projectId":"TEST-1761746269336","ledgerWindow":40}
+[2025-10-29T13:59:56.508Z] [WARN] Ledger drift detected, retrying... — {"attempt":1,"delaySec":3}
+[2025-10-29T14:00:01.148Z] [WARN] Ledger not advancing, waiting 2s more... — {}
+[2025-10-29T14:00:03.405Z] [INFO] XRPL Mint — {"attempt":2,"projectId":"TEST-1761746269336","ledgerWindow":80}
+[2025-10-29T14:04:08.510Z] [WARN] Ledger drift detected, retrying... — {"attempt":2,"delaySec":3}
+[2025-10-29T14:04:13.111Z] [WARN] Ledger not advancing, waiting 2s more... — {}
+[2025-10-29T14:04:15.326Z] [INFO] XRPL Mint — {"attempt":3,"projectId":"TEST-1761746269336","ledgerWindow":120}
+[2025-10-29T14:10:22.367Z] [WARN] Ledger drift detected, retrying... — {"attempt":3,"delaySec":3}
+[2025-10-29T14:10:27.022Z] [WARN] Ledger not advancing, waiting 2s more... — {}
+[2025-10-29T14:10:29.193Z] [ERROR] ❌ Contract build failed — {"projectId":"TEST-1761746269336","chain":"XRPL-testnet","err":"❌ All XRPL mint attempts failed after watchdog retries."}
+[2025-10-29T16:10:10.218Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761754210213.json"}
+[2025-10-29T16:10:10.253Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T16:10:10.246Z","txHash":null,"address":null,"projectId":"TEST-1761754210213","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761754210213"}}
+[2025-10-29T16:10:10.268Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761754210213","idem":"64ed1cc7015ceee361d528d81d07121ea5ecd0262fd2492a37f3ee505948cd6f"}
+[2025-10-29T16:10:10.277Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761754210213"}
+[2025-10-29T16:10:10.279Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761754210213","chain":"XRPL-testnet"}
+[2025-10-29T16:10:11.977Z] [INFO] XRPL Connected — {"url":"wss://s.altnet.rippletest.net:51233"}
+[2025-10-29T16:10:12.111Z] [INFO] XRPL Account Verified — {"address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","balance":"100000000"}
+[2025-10-29T16:10:12.336Z] [INFO] XRPL Mint Attempt — {"attempt":1,"ledgerWindow":40,"projectId":"TEST-1761754210213"}
+[2025-10-29T16:12:17.264Z] [WARN] XRPL Mint Error — {"attempt":1,"err":"The latest ledger sequence 11897828 is greater than the transaction's LastLedgerSequence (11897827).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T16:12:20.476Z] [INFO] XRPL Mint Attempt — {"attempt":2,"ledgerWindow":80,"projectId":"TEST-1761754210213"}
+[2025-10-29T16:16:31.079Z] [WARN] XRPL Mint Error — {"attempt":2,"err":"The latest ledger sequence 11897910 is greater than the transaction's LastLedgerSequence (11897909).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T16:16:34.347Z] [INFO] XRPL Mint Attempt — {"attempt":3,"ledgerWindow":120,"projectId":"TEST-1761754210213"}
+[2025-10-29T16:22:54.618Z] [WARN] XRPL Mint Error — {"attempt":3,"err":"The latest ledger sequence 11898032 is greater than the transaction's LastLedgerSequence (11898031).\nPreliminary result: temREDUNDANT"}
+[2025-10-29T16:22:57.681Z] [ERROR] All XRPL Mint Attempts Failed — {"ok":false,"reason":"The latest ledger sequence 11898032 is greater than the transaction's LastLedgerSequence (11898031).\nPreliminary result: temREDUNDANT","projectId":"TEST-1761754210213","attempts":3,"timestamp":"2025-10-29T16:22:57.677Z"}
+[2025-10-29T16:22:57.877Z] [WARN] XRPL mint returned failure — {"ok":false,"reason":"The latest ledger sequence 11898032 is greater than the transaction's LastLedgerSequence (11898031).\nPreliminary result: temREDUNDANT","txHash":null}
+[2025-10-29T16:22:57.882Z] [INFO] Vault write successful — {"category":"contracts","filename":"PENDING_TEST-1761754210213.json"}
+[2025-10-29T16:22:57.891Z] [INFO] DAO sync recorded — {"eventType":"contract_pending","timestamp":"2025-10-29T16:22:57.886Z","txHash":null,"address":null,"projectId":"TEST-1761754210213","chain":"XRPL-testnet","amount":0,"metadata":{"reason":"The latest ledger sequence 11898032 is greater than the transaction's LastLedgerSequence (11898031).\nPreliminary result: temREDUNDANT"}}
+[2025-10-29T16:22:57.901Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T16:22:57.896Z","txHash":null,"address":null,"projectId":"TEST-1761754210213","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761754210213"}}
+[2025-10-29T16:22:57.932Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761754210213","chain":"XRPL-testnet"}
+[2025-10-29T16:22:57.945Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761754210213","chain":"XRPL-testnet"}
+[2025-10-29T16:28:04.039Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761755284033.json"}
+[2025-10-29T16:28:04.097Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T16:28:04.092Z","txHash":null,"address":null,"projectId":"TEST-1761755284033","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761755284033"}}
+[2025-10-29T16:28:04.125Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761755284033","idem":"f8d48585351c2b8a6a74c15335df583398100687de82272a29882d83f7291ab3"}
+[2025-10-29T16:28:04.131Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761755284033"}
+[2025-10-29T16:28:04.135Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761755284033","chain":"XRPL-testnet"}
+[2025-10-29T16:28:21.761Z] [ERROR] XRPL Mint Timeout — {"projectId":"TEST-1761755284033"}
+[2025-10-29T16:28:21.774Z] [ERROR] Contract deployment failed — {"projectId":"TEST-1761755284033","chain":"XRPL-testnet","err":"❌ All XRPL mint attempts failed after watchdog retries."}
+[2025-10-29T16:28:21.777Z] [INFO] Vault write successful — {"category":"contracts","filename":"FAILED_TEST-1761755284033.json"}
+[2025-10-29T16:28:21.780Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T16:28:21.777Z","txHash":null,"address":null,"projectId":"TEST-1761755284033","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761755284033"}}
+[2025-10-29T16:28:21.783Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761755284033","chain":"XRPL-testnet"}
+[2025-10-29T16:28:21.787Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761755284033","chain":"XRPL-testnet"}
+[2025-10-29T16:41:40.709Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761756100702.json"}
+[2025-10-29T16:41:40.738Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T16:41:40.736Z","txHash":null,"address":null,"projectId":"TEST-1761756100702","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761756100702"}}
+[2025-10-29T16:41:40.744Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761756100702","idem":"de822a4b016228619075e5570c13a40095e4e25042044710b42fd23837e41222"}
+[2025-10-29T16:41:40.749Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761756100702"}
+[2025-10-29T16:41:40.750Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761756100702","chain":"XRPL-testnet"}
+[2025-10-29T16:41:57.908Z] [ERROR] XRPL Mint Timeout — {"projectId":"TEST-1761756100702"}
+[2025-10-29T16:41:57.910Z] [ERROR] Contract deployment failed — {"projectId":"TEST-1761756100702","chain":"XRPL-testnet","err":"❌ All XRPL mint attempts failed after watchdog retries."}
+[2025-10-29T16:41:57.913Z] [INFO] Vault write successful — {"category":"contracts","filename":"FAILED_TEST-1761756100702.json"}
+[2025-10-29T16:41:57.916Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T16:41:57.914Z","txHash":null,"address":null,"projectId":"TEST-1761756100702","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761756100702"}}
+[2025-10-29T16:41:57.918Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761756100702","chain":"XRPL-testnet"}
+[2025-10-29T16:41:57.930Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761756100702","chain":"XRPL-testnet"}
+[2025-10-29T17:23:31.526Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761758611521.json"}
+[2025-10-29T17:23:31.544Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T17:23:31.541Z","txHash":null,"address":null,"projectId":"TEST-1761758611521","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761758611521"}}
+[2025-10-29T17:23:31.547Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761758611521","idem":"55332171c5ca2e193d9522e8f56b5a68ade20d824348ae67a6b55deb53417b9d"}
+[2025-10-29T17:23:31.550Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761758611521"}
+[2025-10-29T17:23:31.552Z] [INFO] ⚙️  Deploying smart contract for project — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet"}
+[2025-10-29T17:23:37.049Z] [INFO] Vault write successful — {"category":"contracts","filename":"TEST-1761758611521_contract.json"}
+[2025-10-29T17:23:37.051Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T17:23:37.050Z","txHash":"138C9B32FD996C5CC3D8033B47CF0B43BCBCF499F18404842A5ACDD140EE5C66","address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","projectId":"TEST-1761758611521","chain":"XRPL-testnet","amount":0,"metadata":{}}
+[2025-10-29T17:23:37.053Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T17:23:37.065Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T17:23:37.174Z] [INFO] Vault write successful — {"category":"contracts","filename":"TEST-1761758611521_contract.json"}
+[2025-10-29T17:23:37.200Z] [SUCCESS] Contract artifact saved — {"ok":true,"filePath":"C:\\Users\\mialo\\AGVault\\investment\\contracts\\TEST-1761758611521_contract.json"}
+[2025-10-29T17:23:37.208Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T17:23:37.206Z","txHash":"138C9B32FD996C5CC3D8033B47CF0B43BCBCF499F18404842A5ACDD140EE5C66","address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","projectId":"TEST-1761758611521","chain":"XRPL-testnet","amount":0,"metadata":{"projectType":"investment"}}
+[2025-10-29T17:23:37.210Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T17:23:37.233Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T17:23:37.237Z] [SUCCESS] Fidelity Notified: Contract Deployment OK — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet"}
+[2025-10-29T17:23:37.243Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T17:23:37.240Z","txHash":null,"address":null,"projectId":"TEST-1761758611521","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761758611521"}}
+[2025-10-29T17:23:37.254Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet"}
+[2025-10-29T17:23:37.265Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761758611521","chain":"XRPL-testnet"}
+[2025-10-29T18:27:40.422Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761762460418.json"}
+[2025-10-29T18:27:40.458Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T18:27:40.456Z","txHash":null,"address":null,"projectId":"TEST-1761762460418","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761762460418"}}
+[2025-10-29T18:27:40.464Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761762460418","idem":"a24383a3d06c4f3bfb315829af225ec3fd019bc895dd8f30d2ab4b1db7daafba"}
+[2025-10-29T18:27:40.467Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761762460418"}
+[2025-10-29T18:27:40.473Z] [INFO] ⚙️ Deploying smart contract — {"projectId":"TEST-1761762460418","chain":"XRPL-testnet","projectType":"investment"}
+[2025-10-29T18:27:49.411Z] [INFO] Vault write successful — {"category":"contracts","filename":"TEST-1761762460418_contract.json"}
+[2025-10-29T18:27:49.413Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T18:27:49.413Z","txHash":"28BC38788A5B43917BF340E754BC31C42BA9EADB470F17FE06E0EA293595F247","address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","projectId":"TEST-1761762460418","chain":"XRPL-testnet","amount":0,"metadata":{"ledgerIndex":11900498,"projectType":"investment"}}
+[2025-10-29T18:27:49.415Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761762460418","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T18:27:49.419Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761762460418","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T18:27:49.529Z] [SUCCESS] XRPL deploy successful — {"projectId":"TEST-1761762460418","chain":"XRPL-testnet","address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","txHash":"28BC38788A5B43917BF340E754BC31C42BA9EADB470F17FE06E0EA293595F247","ledgerIndex":11900498}
+[2025-10-29T18:27:49.531Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T18:27:49.530Z","txHash":"28BC38788A5B43917BF340E754BC31C42BA9EADB470F17FE06E0EA293595F247","address":null,"projectId":"TEST-1761762460418","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761762460418","txId":"28BC38788A5B43917BF340E754BC31C42BA9EADB470F17FE06E0EA293595F247"}}
+[2025-10-29T18:27:49.533Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761762460418","chain":"XRPL-testnet"}
+[2025-10-29T18:27:49.536Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761762460418","chain":"XRPL-testnet"}
+[2025-10-29T18:39:33.715Z] [INFO] Vault write successful — {"category":"projects","filename":"TEST-1761763173703.json"}
+[2025-10-29T18:39:33.724Z] [INFO] DAO sync recorded — {"eventType":"investment_intake","timestamp":"2025-10-29T18:39:33.722Z","txHash":null,"address":null,"projectId":"TEST-1761763173703","chain":"XRPL-testnet","amount":0,"metadata":{"projectId":"TEST-1761763173703"}}
+[2025-10-29T18:39:33.726Z] [INFO] Notify Custodian: Project Intake → queued — {"projectId":"TEST-1761763173703","idem":"a0ef6b0c05a1df3080e5dc60ec2fd2432d7733c9f26c186975886b68ba22ec24"}
+[2025-10-29T18:39:33.730Z] [SUCCESS] Notify Custodian: Project Intake → ok — {"projectId":"TEST-1761763173703"}
+[2025-10-29T18:39:33.732Z] [INFO] ⚙️ Deploying smart contract — {"projectId":"TEST-1761763173703","chain":"XRPL-testnet","projectType":"investment"}
+[2025-10-29T18:39:43.283Z] [INFO] Vault write successful — {"category":"contracts","filename":"TEST-1761763173703_contract.json"}
+[2025-10-29T18:39:43.286Z] [INFO] DAO sync recorded — {"eventType":"contract_deploy","timestamp":"2025-10-29T18:39:43.284Z","txHash":"D8C9AA62A384462BA2181414B28406D832D38EC8F3ABF3364BBE0CBAD68C714F","address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","projectId":"TEST-1761763173703","chain":"XRPL-testnet","amount":0,"metadata":{"ledgerIndex":11900733,"projectType":"investment"}}
+[2025-10-29T18:39:43.287Z] [INFO] Notify Custodian: Contract Deployment → queued — {"projectId":"TEST-1761763173703","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T18:39:43.291Z] [SUCCESS] Notify Custodian: Contract Deployment → ok — {"projectId":"TEST-1761763173703","chain":"XRPL-testnet","contractAddress":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh"}
+[2025-10-29T18:39:43.386Z] [SUCCESS] XRPL deploy successful — {"projectId":"TEST-1761763173703","chain":"XRPL-testnet","address":"rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh","txHash":"D8C9AA62A384462BA2181414B28406D832D38EC8F3ABF3364BBE0CBAD68C714F","ledgerIndex":11900733}
+[2026-01-18T12:10:11.661Z] [ERROR] Escalation execute failure — {"message":"buildXRPLContract is not a function"}
+[2026-01-18T13:11:14.521Z] [INFO] Escalation executed in DEMO mode — {"escalationId":"ESC-1768737727916-ddd31b59ba75","projectId":"PRJ-ESC-FINAL"}

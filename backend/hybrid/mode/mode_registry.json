@@ -1,0 +1,28 @@
+{
+    "mode": {
+        "id": "MODE_CORE",
+        "type": "hybrid",
+        "description": "MODE Hospitality & Event Intelligence Layer inside MODX Hybrid Network.",
+        "parentLayer": "HYBRID_LAYER",
+        "governanceVisibility": true,
+        "kzVisibility": true,
+        "links": {
+            "airs": "AIRS_CORE",
+            "creatv": "CREATV_CORE",
+            "modastay": "MODASTAY_CORE",
+            "coinpurse": "COINPURSE_CORE"
+        },
+        "policyBinding": {
+            "constitutionalRules": true,
+            "declarations": true,
+            "oversightEscalation": true,
+            "aiCheckBalance": true
+        },
+        "security": {
+            "zeroTrust": true,
+            "crossAiIsolation": true,
+            "externalAiFirewall": true,
+            "hybridInteractionGuard": true
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "constitution_sections_enforced": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8
+    ],
+    "rules": {
+        "no_policy_override_without_vote": true,
+        "no_reserve_modification_without_signatures": true,
+        "no_stablecoin_issuance_outside_bounds": true
+    }
+}
