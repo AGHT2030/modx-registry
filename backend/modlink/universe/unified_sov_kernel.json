@@ -1,0 +1,23 @@
+{
+    "sovereignKernel": {
+        "version": "1.0.0",
+        "constitution": "ENFORCED",
+        "declaration": "BOUND",
+        "trustAuthority": "AG_HOLDINGS_TRUST",
+        "governanceMode": "OBSERVABLE",
+        "oversightBoard": "ACTIVE",
+        "kzShield": "LAYERED",
+        "auraGuardians": "ONLINE",
+        "chainPrivileges": {
+            "xrpl": "PERMITTED",
+            "evm": "PERMITTED",
+            "modx": "PRIMARY",
+            "hybrids": "GATED"
+        },
+        "fallbackProtections": {
+            "globalFreeze": "AURA_APPROVED_ONLY",
+            "reversalMatrix": "MULTI-LAYER",
+            "zeroTrustAiFirewall": "ACTIVE"
+        }
+    }
+}

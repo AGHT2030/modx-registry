@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "tiers": {
+        "tier_1": "Hybrid auto-defense / AIRS / CREATV / MODASTAY / MODE",
+        "tier_2": "KZ analytical review + treasury validation",
+        "tier_3": "Oversight Council + Constitutional Enforcement"
+    },
+    "escalation_rules": {
+        "auto": true,
+        "severity_driven": true
+    },
+    "consensus_rules": {
+        "tier_1": 1,
+        "tier_2": 2,
+        "tier_3": 3
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "issuer": "rDhxHs58PHwXx9iCPmYk7WoMWedG5f6ibh",
+    "network": "mainnet",
+    "xrplNode": "wss://s1.ripple.com",
+    "primary": {
+        "currency": "MODUSDs",
+        "visible": true,
+        "proofRequired": true
+    },
+    "secondary": [
+        {
+            "currency": "INTI",
+            "visible": true,
+            "proofRequired": true
+        }
+    ],
+    "hiddenReserves": [
+        {
+            "currency": "MODUSD",
+            "visible": false,
+            "proofRequired": true,
+            "note": "Internal backing asset; excluded from public dashboards"
+        }
+    ]
+}

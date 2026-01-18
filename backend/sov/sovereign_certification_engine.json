@@ -1,0 +1,18 @@
+{
+    "sovereign_certification": {
+        "purpose": "Certify that any galaxy, hybrid, or module operates under MODX Sovereignty.",
+        "tiers": {
+            "tier0": "Universe Root",
+            "tier1": "Galaxy",
+            "tier2": "Hybrid",
+            "tier3": "Module",
+            "tier4": "External Partner"
+        },
+        "certification_requirements": {
+            "must_pass_constitution_check": true,
+            "must_pass_declaration_check": true,
+            "must_pass_kz_safety_review": true,
+            "must_register_with_modlink": true
+        }
+    }
+}

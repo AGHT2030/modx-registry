@@ -1,0 +1,24 @@
+{
+    "modeCrossAISafety": {
+        "aiThreatModels": [
+            "coercion",
+            "manipulation",
+            "promptInjection",
+            "misdirection",
+            "dataPoisoning"
+        ],
+        "shields": {
+            "auraTwinVerification": true,
+            "multiFactorAIAuth": true,
+            "constitutionalGuard": true,
+            "oversightMirrorReview": true,
+            "antiManipulationFilters": true
+        },
+        "actions": {
+            "block": true,
+            "quarantine": true,
+            "auditTrail": true,
+            "oversightNotification": true
+        }
+    }
+}

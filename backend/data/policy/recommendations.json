@@ -1,0 +1,120 @@
+{
+    "EmissionRate": [
+        {
+            "title": "Revalidate Emission Targets",
+            "detail": "Compare emission output with DAO-approved targets and rebalance liquidity pools if deviation exceeds 5%.",
+            "status": "pending"
+        },
+        {
+            "title": "Synchronize DAO Snapshot",
+            "detail": "Trigger AURA Sentinel to create a new state hash for emission contract parameters.",
+            "status": "in-progress"
+        },
+        {
+            "title": "Confirm Treasury Coverage",
+            "detail": "Verify proof-of-reserve ratio ≥ 1.25x total circulating emission.",
+            "status": "done"
+        }
+    ],
+    "TreasuryCap": [
+        {
+            "title": "Audit Treasury Allocations",
+            "detail": "Ensure DAO allocations match on-chain reserve balance within 2% margin.",
+            "status": "pending"
+        },
+        {
+            "title": "Verify Multi-Sig Approvals",
+            "detail": "All treasury adjustments must be signed by at least 2 out of 3 DAO multisig controllers.",
+            "status": "in-progress"
+        },
+        {
+            "title": "Generate Proof-of-Reserve Snapshot",
+            "detail": "Capture on-chain balance report via Sentinel and publish in investor dashboard.",
+            "status": "done"
+        }
+    ],
+    "LiquidityLock": [
+        {
+            "recommendation": "Ensure all token liquidity pools are locked for a minimum of 12 months.",
+            "impact": "Reduces risk of rug-pull and stabilizes investor confidence.",
+            "priority": "high",
+            "actions": [
+                "Implement on-chain lock using TimeLock or LP Locker contract.",
+                "Audit contract ownership transfer post-lock."
+            ]
+        },
+        {
+            "recommendation": "Regularly publish liquidity verification reports.",
+            "impact": "Improves transparency with investors and auditors.",
+            "priority": "medium",
+            "actions": [
+                "Use automated scripts to confirm LP token lock hashes weekly.",
+                "Share verification results to the investor dashboard."
+            ]
+        }
+    ],
+    "DAOIntegrity": [
+        {
+            "recommendation": "Require all proposals to include on-chain identity proofs for submitters.",
+            "impact": "Prevents malicious DAO proposals and improves governance traceability.",
+            "priority": "high",
+            "actions": [
+                "Integrate DID verification with proposal submission flow.",
+                "Log proposer address hashes into AURA Sentinel for review."
+            ]
+        },
+        {
+            "recommendation": "Rotate DAO multisig controllers quarterly.",
+            "impact": "Ensures continuity while mitigating insider risk.",
+            "priority": "medium",
+            "actions": [
+                "Establish rotation schedule and update governance contracts.",
+                "Publish controller change logs to public DAO feed."
+            ]
+        }
+    ],
+    "TreasuryReserve": [
+        {
+            "recommendation": "Maintain 125% reserve ratio across all tokenized assets.",
+            "impact": "Provides over-collateralization and stability for MODA-linked assets.",
+            "priority": "high",
+            "actions": [
+                "Rebalance holdings monthly against circulating supply.",
+                "Generate cryptographic proof-of-reserve snapshot on-chain."
+            ]
+        }
+    ],
+    "CarbonCompliance": [
+        {
+            "recommendation": "Audit carbon offset projects tied to MODA GreenBond issuance.",
+            "impact": "Verifies ESG claims and aligns with SEC sustainability rules.",
+            "priority": "high",
+            "actions": [
+                "Cross-check with registered offset providers.",
+                "Update CoinPurse dashboard with carbon footprint metrics."
+            ]
+        }
+    ],
+    "AML/KYC": [
+        {
+            "recommendation": "Implement zero-knowledge proof identity checks for all investors.",
+            "impact": "Ensures regulatory compliance while maintaining privacy.",
+            "priority": "high",
+            "actions": [
+                "Integrate zkKYC framework with CoinPurse onboarding.",
+                "Report suspicious activity to AURA Compliance Node automatically."
+            ]
+        }
+    ],
+    "GreenBondEligibility": [
+        {
+            "recommendation": "Validate all BLC Foundation green bond projects under SEC-ESG taxonomy.",
+            "impact": "Ensures eligibility for green financing and investor trust.",
+            "priority": "high",
+            "actions": [
+                "Submit environmental impact documentation to AURA Compliance node.",
+                "Update CoinPurse investor portal with project verification results."
+            ]
+        }
+    ]
+}

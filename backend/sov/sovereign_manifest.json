@@ -1,0 +1,14 @@
+{
+    "sovereign_manifest": {
+        "universe_name": "MODX Sovereign Universe",
+        "declared_by": "AG Holdings Trust",
+        "protected_by": [
+            "AURA Twins",
+            "MODLINK Governance",
+            "KZ Oversight",
+            "Trust Constitution",
+            "Declaration of Universe"
+        ],
+        "status": "Verified + Active"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "module": "AI-Anti-Corruption-Module",
+    "version": "1.0.0",
+    "goals": [
+        "prevent-AI-manipulation",
+        "detect-human-political-pressure",
+        "protect-constitution",
+        "ensure-system-integrity"
+    ],
+    "checks": {
+        "ai_self_integrity": true,
+        "oversight_decision_integrity": true,
+        "bridge_data_integrity": true,
+        "oracle_integrity": true
+    },
+    "actions": {
+        "flag_suspicious_requests": true,
+        "block_attempted-persuasion": true,
+        "block-illegal-human-overrides": true,
+        "log-all-anomalies": true,
+        "notify-kz-and-oversight": true
+    },
+    "ai_to_ai_interference_protection": {
+        "block_external_ai_influence": true,
+        "block_prompt_injection": true,
+        "block_governance_persuasion": true
+    }
+}

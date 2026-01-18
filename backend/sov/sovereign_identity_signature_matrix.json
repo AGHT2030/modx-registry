@@ -1,0 +1,13 @@
+{
+    "signature_matrix": {
+        "founder_required": true,
+        "trustee_required": true,
+        "aura_required": true,
+        "multi_sig_layers": 3,
+        "emergency_override_locks": [
+            "galactic-governance-lock",
+            "aura-core-lock",
+            "trust-root-lock"
+        ]
+    }
+}

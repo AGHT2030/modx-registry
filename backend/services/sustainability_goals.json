@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Carbon Neutrality",
+    "targetYear": 2030,
+    "goal": "Achieve net-zero carbon emissions for all MODA Hotels",
+    "progress": 60
+  },
+  {
+    "category": "Energy Efficiency",
+    "targetYear": 2027,
+    "goal": "Upgrade 100% of lighting to LED in museum and hotels",
+    "progress": 75
+  },
+  {
+    "category": "Water Conservation",
+    "targetYear": 2026,
+    "goal": "Reduce water usage by 40% across properties",
+    "progress": 50
+  },
+  {
+    "category": "Waste Reduction",
+    "targetYear": 2025,
+    "goal": "Implement zero-waste practices in kitchen and event services",
+    "progress": 68
+  },
+  {
+    "category": "Green Procurement",
+    "targetYear": 2028,
+    "goal": "Source 80% of all supplies from certified green vendors",
+    "progress": 35
+  }
+]

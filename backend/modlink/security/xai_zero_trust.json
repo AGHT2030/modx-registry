@@ -1,0 +1,27 @@
+{
+    "module": "External-AI-Zero-Trust-Firewall",
+    "version": "1.0.0",
+    "zero_trust_principles": {
+        "assume_breach": true,
+        "verify_every_request": true,
+        "never_trust_external_models": true
+    },
+    "firewall": {
+        "block_categories": [
+            "AI-originated",
+            "AI-assisted",
+            "synthetic-queries",
+            "automated-governance-requests"
+        ],
+        "allow_categories": [
+            "human-verified",
+            "constitution-compliant",
+            "oversight-reviewed"
+        ]
+    },
+    "monitoring": {
+        "log_all_external_requests": true,
+        "scan_for_ai-patterns": true,
+        "alert_kz_on_detection": true
+    }
+}

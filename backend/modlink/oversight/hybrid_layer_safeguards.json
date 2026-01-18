@@ -1,0 +1,23 @@
+{
+    "module": "Hybrid-Layer-Safeguard",
+    "version": "1.0.0",
+    "protected_layers": [
+        "AIRS",
+        "CREATV",
+        "MODAStay",
+        "all-franchise-integrations",
+        "all-licensing-integrations"
+    ],
+    "risks_monitored": [
+        "unauthorized-data-access",
+        "revenue-manipulation",
+        "license-breach",
+        "AI-mimicry",
+        "cross-system-injection"
+    ],
+    "policy": {
+        "freeze_on_risk": true,
+        "auto_quarantine_subsystem": true,
+        "require_human_review_for_reactivation": true
+    }
+}

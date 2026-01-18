@@ -1,0 +1,23 @@
+{
+    "modePolicy": {
+        "oversightLevel": "HYBRID_GOV_A1",
+        "protectedBy": [
+            "KZ_SHIELD",
+            "AI_SENTINEL",
+            "OVERSIGHT_COUNCIL"
+        ],
+        "rules": {
+            "noDataLeakage": true,
+            "noUnauthorizedAIInteraction": true,
+            "immutableContracts": true,
+            "noHumanOverrideWithoutConstitutionalReview": true,
+            "hybridSafeExecution": true
+        },
+        "eventTriggers": {
+            "breach": "ESCALATE_TO_OVERSIGHT",
+            "policyViolation": "FREEZE_HYBRID_CHANNELS",
+            "externalAiProbe": "AUTO_REJECT_AND_QUARANTINE",
+            "abnormalPattern": "AI_SENTINEL_REVIEW"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "modeReversalMatrix": {
+        "participates": true,
+        "paths": {
+            "toTreasury": "TREASURY_REVERSAL_CHANNEL",
+            "toOversight": "OVERSIGHT_ESCROW_CHANNEL"
+        },
+        "conditions": {
+            "fraud": true,
+            "policyBreach": true,
+            "aiThreatDetected": true,
+            "governanceFreeze": true
+        }
+    }
+}

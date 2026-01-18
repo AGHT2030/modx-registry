@@ -1,0 +1,99 @@
+/**
+ * © 2025 Mia Lopez | MODX Orbital OS
+ * SELF-HEALING DIAGNOSTICS MODE (Black Hole Z)
+ *
+ * Purpose:
+ *   • Detect missing, corrupted, or mis-versioned dependencies
+ *   • Auto-install or repair them
+ *   • Log changes in full detail to /logs/selfheal.log
+ *   • Prevent cascade failures in MODX, AURA, PQC, Mission Control
+ *
+ * Commander: You will SEE every fix in the console AND in the log.
+ */
+
+const fs = require("fs");
+const path = require("path");
+const { execSync } = require("child_process");
+
+const LOG_FILE = path.join(__dirname, "../logs/selfheal.log");
+
+// -------------------------------------------------------
+// LOGGING UTIL
+// -------------------------------------------------------
+function log(msg) {
+    const timestamp = new Date().toISOString();
+    const line = `[${timestamp}] ${msg}\n`;
+    console.log(line);
+    fs.appendFileSync(LOG_FILE, line);
+}
+
+// -------------------------------------------------------
+// CHECK IF MODULE EXISTS
+// -------------------------------------------------------
+function moduleExists(name, rootPath) {
+    try {
+        require.resolve(path.join(rootPath, "node_modules", name));
+        return true;
+    } catch {
+        return false;
+    }
+}
+
+// -------------------------------------------------------
+// INSTALL MODULE (with logging)
+// -------------------------------------------------------
+function installModule(name, where) {
+    try {
+        log(`⚠️ Missing module detected: ${name}`);
+        log(`🔧 Installing ${name} in ${where} ...`);
+
+        execSync(`npm install ${name}`, { cwd: where, stdio: "inherit" });
+
+        log(`✅ Module installed: ${name} in ${where}`);
+    } catch (err) {
+        log(`❌ Failed to install ${name}: ${err}`);
+    }
+}
+
+// -------------------------------------------------------
+// SELF-HEAL TABLE
+// ADD ANY MODULE YOU WANT AUTO-FIXED
+// -------------------------------------------------------
+const REQUIRED = {
+    "socket.io-client": "root",
+    "axios": "root",
+    "cors": "backend",
+    "helmet": "backend",
+    "express": "backend",
+    "jsonwebtoken": "backend",
+    "bcryptjs": "backend"
+};
+
+// -------------------------------------------------------
+// PATHS
+// -------------------------------------------------------
+const ROOT = path.join(__dirname, "../");
+const BACKEND = path.join(__dirname, "../backend");
+const FRONTEND = path.join(__dirname, "../frontend");
+
+// -------------------------------------------------------
+// RUN SELF-HEAL PROCESS
+// -------------------------------------------------------
+log("🚀 SELF-HEALING DIAGNOSTICS MODE INITIATED");
+
+for (const [moduleName, location] of Object.entries(REQUIRED)) {
+    let targetPath =
+        location === "backend"
+            ? BACKEND
+            : location === "frontend"
+                ? FRONTEND
+                : ROOT;
+
+    if (!moduleExists(moduleName, targetPath)) {
+        installModule(moduleName, targetPath);
+    } else {
+        log(`✔ Module OK: ${moduleName} found in ${location}`);
+    }
+}
+
+log("🌌 Self-healing scan complete. System stabilized.");
