@@ -1,2 +1,14 @@
 # Local Netlify folder
 .netlify
+
+# 🔐 Secrets & keys (NEVER COMMIT)
+.env
+.env.*
+*.pem
+*.key
+*.private
+**/private/**
+**/keys/**
+**/secrets/**
+*PASS*.txt
+*MONGO*.txt
