@@ -1,9 +1,0 @@
-{
-    "oversight_escalation": {
-        "tier1": "AI-only (AURA auto-handling)",
-        "tier2": "AI + Governance DAO",
-        "tier3": "AI + DAO + Oversight Committee",
-        "tier4": "AI + DAO + Oversight + Trustees",
-        "tier5": "Full Sovereign Lockdown (Founder + Trust)"
-    }
-}

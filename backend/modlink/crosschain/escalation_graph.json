@@ -1,9 +1,0 @@
-{
-    "version": "1.0.0",
-    "flows": {
-        "hybrid_to_KZ": "risk event",
-        "KZ_to_Oversight": "security or policy breach",
-        "governance_to_Oversight": "collision or anomaly"
-    },
-    "auto_freeze_on_conflict": true
-}
