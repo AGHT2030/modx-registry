@@ -107,6 +107,18 @@ Trustee logic
 AIRS / MODE runtime systems
 🔒 This repo is non-executable by design
 
+## Repository Scope Notice
+
+This repository is intentionally limited to public-safe disclosure materials and non-operational documentation.
+
+It does **not** contain:
+- Runtime or execution-capable code
+- Backend services or APIs
+- Private keys, seeds, or credentials
+- Custody logic, multisignature details, or trustee workflows
+
+Authoritative governance, compliance, and execution systems are maintained separately under controlled access by AG Holdings Trust.
+
 ## Disclaimer
 This documentation is not legal, financial, or compliance advice.
 © 2025 AG Holdings Trust | MODX Sovereign Technologies
