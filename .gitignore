@@ -12,3 +12,25 @@
 **/secrets/**
 *PASS*.txt
 *MONGO*.txt
+# Runtime / backend code (never public)
+backend/
+api/
+admin/
+billing/
+bootstrap/
+chains/
+coinpurse/
+consensus/
+airs/
+_fallback/
+
+# Env & secrets
+.env*
+*.key
+*.pem
+*.seed
+
+# Build artifacts
+dist/
+build/
+node_modules/
