@@ -71,14 +71,6 @@ AI-assisted components are advisory/analytical only and have no custody or execu
 ## Disclaimer
 Informational only; not legal, financial, or compliance advice.
  
-## MODX — Governed Financial Infrastructure
-
-MODX is a governed financial infrastructure platform designed to operate under long-term authority control, regulatory alignment, and institutional oversight.
-
-Unlike application-centric platforms, MODX is structured to govern execution itself, deliberately separating governance, authority, routing, execution, custody, and observability layers to support regulated financial activity at scale.
-
-Competitors build products. MODX governs the system those products run on.
-
 ## Executive Summary — Governance & Oversight
 
 MODX provides:
@@ -100,6 +92,14 @@ Infrastructure support for stablecoins, ETFs, structured products, and digital a
 
 Long-horizon governance alignment
 Trust-anchored oversight designed for continuity, regulatory examinations, and institutional lifecycle management
+
+## MODX — Governed Financial Infrastructure
+
+MODX is a governed financial infrastructure platform designed to operate under long-term authority control, regulatory alignment, and institutional oversight.
+
+Unlike application-centric platforms, MODX is structured to govern execution itself, deliberately separating governance, authority, routing, execution, custody, and observability layers to support regulated financial activity at scale.
+
+Competitors build products. MODX governs the system those products run on.
 
 ## Governance & Oversight Model
 
