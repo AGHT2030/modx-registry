@@ -5,6 +5,72 @@ Public Registry & Pre-Launch Disclosures for MODX Governed Financial Infrastruct
 Authoritative Public Disclosure Repository
 This repository serves as the canonical public record for MODX pre-launch infrastructure, governance posture, security architecture, and transparency disclosures.
 
+### MODX / MODE — Public Technical Registry (modx-registry)
+
+This repository provides **public-safe transparency documentation** and non-custodial technical artifacts for the MODX/MODE ecosystem.
+
+> **Non-Authoritative Notice**
+> This repository is **informational only**. It does **not** confer execution authority, custody rights, governance control, or trustee approvals.
+> Authoritative materials are maintained under controlled access for trustees, regulators, and auditors.
+
+## What’s in this repo
+- Public-safe architecture and governance summaries
+- Guard-chain overview (high level)
+- Diagrams (sanitized)
+- Developer notes for non-custodial components
+
+## What’s NOT in this repo
+- Private keys, seeds, signer identities, quorum thresholds, or custody workflows
+- Trustee resolutions, approvals, or sign-off materials
+- Any confidential execution runbooks or vault receipts
+
+## Core docs
+- **Guard Chain Overview:** `docs/guard-chain-overview.md`
+- **Disclosures:** `docs/disclosures.md`
+- **For Regulators / Auditors:** `docs/regulator-auditor-pointer.md`
+- **Diagrams:** `docs/diagrams/`
+
+## AIRS clarification
+AIRS components (where referenced) are **advisory/analytical only** and have **no custody, no execution authority, and no autonomous control** over assets or transactions.
+
+## For Regulators and Auditors (Public Pointer)
+
+This repository contains **public-safe transparency documentation only**.
+
+Authoritative materials — including trustee approvals, custody controls, multisignature quorum policies, execution thresholds, and audit receipts — are maintained in a **controlled-access trustee and regulator data room**.
+
+For formal verification, examination, or audit requests, please contact AG Holdings Trust to obtain access to the authoritative documentation.
+
+Nothing in this repository should be interpreted as a substitute for fiduciary, regulatory, or custodial documentation.
+# Guard Chain Overview (Public-Safe, Non-Authoritative)
+
+> **Label: Public-Safe / Non-Authoritative**
+> This document summarizes design intent and high-level controls.
+> It does **not** include signer identities, thresholds, private execution criteria, or trustee authorization artifacts.
+
+## Purpose
+MODX/MODE uses layered safeguards intended to reduce single-point-of-failure risk and prevent unauthorized execution pathways.
+
+## High-Level Safeguards
+- **Network enforcement:** separation of testnet vs mainnet execution contexts
+- **Role separation:** issuance and burn authorities are separated by policy and technical controls
+- **Multisignature controls:** designated XRPL accounts use multisignature configuration (details withheld here)
+- **Governance gating:** production execution paths require governance approval (policy specifics withheld here)
+- **Auditability:** execution events generate immutable audit artifacts (receipt formats withheld here)
+
+## What this document omits (intentionally)
+- Signer addresses and quorum thresholds  
+- Key custody and key ceremony procedures  
+- Trustee approval rules and escalation thresholds  
+- Vault receipt samples and hashes  
+- Any runbook that could be used to operate custody or execution
+
+## AIRS note
+AI-assisted components are advisory/analytical only and have no custody or execution authority.
+
+## Disclaimer
+Informational only; not legal, financial, or compliance advice.
+ 
 ## MODX — Governed Financial Infrastructure
 
 MODX is a governed financial infrastructure platform designed to operate under long-term authority control, regulatory alignment, and institutional oversight.
@@ -230,6 +296,52 @@ DAO governance foundations (staged enablement)
 POA enforcement, observability, and policy layers
 Consumer-facing systems and experience modules activate post-launch.
 
+## MODX / MODE Governance Guard Chain — Public Disclosure
+
+AG Holdings Trust has implemented a layered governance guard chain within the MODX and MODE platforms to prevent unilateral control, unauthorized execution, and single-key risk.
+
+This disclosure is provided for transparency and informational purposes only and does not confer execution authority, custody rights, or governance control.
+
+What This Means At a high level, the platform enforces:
+
+Explicit network enforcement (testnet vs mainnet)
+Separation of issuance and burn authority
+Mandatory XRPL multisignature configuration
+Trustee-gated execution approval
+Immutable audit receipt generation
+
+No single individual, system, or key can independently execute transactions.
+
+Design Principles
+Defense in depth: multiple independent checks before execution
+Separation of roles: governance, execution, and advisory layers are distinct
+Auditability: all executions generate immutable records
+
+AIRS Clarification
+
+AI-assisted components (including AIRS) operate in advisory and analytical roles only.
+They have no custody, no execution authority, and no autonomous control.
+
+Important Disclaimer
+This repository does not contain private governance thresholds, signer identities, or trustee authorities.
+Authoritative documentation is maintained separately for trustees and regulators.
+
+## Governance & Execution Safeguards
+
+MODX and MODE operate under a governance-first architecture designed to prevent unauthorized execution and eliminate single-point-of-failure risk.
+
+Key safeguards include:
+
+Enforced blockchain network separation
+Separation of issuance and burn authority
+Mandatory multisignature execution control
+Trustee-approved execution workflows
+Immutable audit and receipt generation
+All production execution requires governance approval and cryptographic validation.
+No AI system or automated process has independent execution authority.
+
+Authoritative governance documents and fiduciary controls are maintained under controlled access for trustees, regulators, and auditors.
+
 ## Registry Files
 
 PRELAUNCH.md
@@ -249,4 +361,6 @@ Certain technologies, systems, and methodologies described herein are protected 
 
 All trademarks, service marks, proprietary frameworks, governance structures, and related intellectual property are owned by or licensed to AG Holdings Trust or its affiliated entities. Unauthorized use, reproduction, or distribution is strictly prohibited.
 
+## Disclaimer
+This documentation is not legal, financial, or compliance advice.
 © 2025 AG Holdings Trust | MODX Sovereign Technologies
