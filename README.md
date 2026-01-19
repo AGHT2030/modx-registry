@@ -85,6 +85,28 @@ Certain technologies, systems, and methodologies described herein are protected 
 
 All trademarks, service marks, proprietary frameworks, governance structures, and related intellectual property are owned by or licensed to AG Holdings Trust or its affiliated entities. Unauthorized use, reproduction, or distribution is strictly prohibited.
 
+## Purpose: Transparency, disclosure, verification
+Audience: Public, regulators (read-only), auditors (pointer only)
+
+Allowed content
+
+README.md (scope + disclaimers)
+Public-safe architecture overviews
+Guard-chain overview (non-operational)
+Sanitized diagrams
+Disclosure documents
+Contract registry (addresses only, no ops)
+Pre-launch notices
+Explicitly prohibited
+Backend runtime code
+Execution routes
+Demo servers
+Seeds, keys, configs
+Multisig details
+Trustee logic
+AIRS / MODE runtime systems
+🔒 This repo is non-executable by design
+
 ## Disclaimer
 This documentation is not legal, financial, or compliance advice.
 © 2025 AG Holdings Trust | MODX Sovereign Technologies
