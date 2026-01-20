@@ -119,6 +119,12 @@ It does **not** contain:
 
 Authoritative governance, compliance, and execution systems are maintained separately under controlled access by AG Holdings Trust.
 
+### Disclosure Status Legend
+
+- **Active** — Current, authoritative, in force
+- **Deprecated** — No longer used; retained for historical transparency
+- **Superseded** — Replaced by a newer authoritative document
+
 ## Disclaimer
 This documentation is not legal, financial, or compliance advice.
 © 2025 AG Holdings Trust | MODX Sovereign Technologies
