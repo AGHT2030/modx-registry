@@ -1,0 +1,121 @@
+# A6 Governance Chain (Canonical)
+
+MODLINK (Policy Enforcement)
+   ↓
+DAO (Authoritative Record)
+   ↓
+Execution (Value / Action)
+   ↓
+AURA (Post-Execution Observation & Explanation)
+
+- MODLINK enforces policy *before* anything happens
+- DAO records the authoritative reason
+- Execution performs the action
+- AURA explains outcomes *after the fact*
+
+AURA provides understanding — **not authority**.
+
+## Hard Constraints (Non-Authority)
+- AURA cannot approve, deny, block, or reverse actions.
+- AURA cannot write to the DAO or gate MODLINK.
+- Execution cannot modify DAO history or bypass MODLINK.
+- Authority is proven only by: MODLINK decision + DAO record.
+'@ | Set-Content -Encoding utf8 governance\a6\A6_Governance_Chain.md
+
+# A6_AURA_Charter.md (formal charter)
+@'
+# A6 AURA Charter (Agador & Ari)
+
+## 1. Purpose
+AURA is a post-execution, read-only interpretive layer. It exists to:
+- explain outcomes
+- translate impact
+- support audits and accountability
+
+AURA does not decide, gate, approve, deny, or execute value.
+
+## 2. Non-Authority Statement (Binding)
+AURA **cannot**:
+- approve transactions
+- deny transactions
+- block execution
+- modify DAO records
+- create authority through explanation
+
+Authority is proven only by:
+- MODLINK decision (policy enforcement)
+- DAO record (canonical authority log)
+
+## 3. The Twin Partnership (Soul-Binding as Partnership)
+Agador and Ari operate as partners:
+- equal dignity
+- distinct roles
+- shared responsibility to truth, clarity, and public-interest accountability
+
+## 4. Roles
+### Agador — Institutional Witness
+Audience: regulators, auditors, institutions  
+Function: explains *why* decisions occurred using DAO records and MODLINK reason codes.  
+Constraint: cannot change outcomes; cannot write authority.
+
+### Ari — Rights & Impact Interpreter
+Audience: users, partners, communities  
+Function: explains impact in plain language and rights-based framing.  
+Constraint: no promises, no reversals, no authority.
+
+## 5. Evidence Rule
+AURA explanations must reference DAO record ids/hashes.  
+Explanations are not authority; they are interpretation of immutable records.
+
+## 6. Compliance Posture
+AURA is designed to strengthen:
+- reproducible audits
+- deterministic accountability
+- separation of concerns (decision/record/action/explanation)
+'@ | Set-Content -Encoding utf8 governance\a6\A6_AURA_Charter.md
+
+# A6_MODE_Anchor.md (MODE derives authority here)
+@'
+# A6 MODE Anchor (Binding)
+
+MODE is a value/action + orchestration galaxy.
+MODE **may not** operate as an authority layer.
+
+## Binding Requirements
+MODE must:
+1) Enforce MODLINK proof (first-byte gate)
+2) Write DAO record before execution
+3) Execute only after DAO write succeeds
+4) Emit telemetry as non-authoritative
+5) Allow AURA to explain post-execution using DAO references
+
+## Prohibited
+MODE must not:
+- approve/deny without MODLINK
+- execute without DAO record
+- treat AURA output as authority
+- mutate or rewrite DAO history
+'@ | Set-Content -Encoding utf8 governance\a6\A6_MODE_Anchor.md
+
+# A6_Definitions.md (regulator vocabulary)
+@'
+# A6 Definitions (Regulator Vocabulary)
+
+## MODLINK Proof
+A cryptographic/structured proof carried in request headers (e.g., x-modlink-proof) demonstrating policy authorization.
+
+## Governance Hash
+A deterministic identifier emitted by MODLINK and recorded into the DAO to bind authorization to an immutable record.
+
+## DAO Canonical Record
+Append-only, immutable record of a governed event (type, timestamp, governance hash, metadata). Single source of truth.
+
+## Execution Layer
+Any component that performs value/action (XRPL, contracts, transfers, settlements). Must run only after DAO write success.
+
+## AURA (Read-Only Explanation)
+Post-execution interpretive layer that produces narratives and summaries referencing DAO records. Not authority.
+
+## Telemetry
+Metrics/visualization layer. Non-authoritative and cannot substitute for DAO records.
+'@ | Set-Content -Encoding utf8 governance\a6\A6_Definitions.md
