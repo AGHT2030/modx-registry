@@ -94,6 +94,43 @@ Supports interoperability, governed collaboration, trust routing, and sovereign 
 Supports responsible AI literacy, collaborative participation, ethical onboarding, and intelligent infrastructure education.
 
 ---
+# AIRS — Autonomous Intelligence Registry & Assurance Services
+
+## Sovereign Infrastructure Overview
+
+## Constitutional Positioning
+
+## Core AIRS Divisions
+
+### AIRS Registry
+
+### AIRS Assurance
+
+### AIRS Constitutional
+
+### AIRS Sentinel
+
+### AIRS Recovery
+
+### AIRS Federation
+
+### AIRS Education
+
+## Sovereign Participation Principles
+
+## Human-AI Collaborative Infrastructure
+
+## Public Standards & Governance
+
+## Registry Lineage
+
+## Protected Sovereign Infrastructure Notice
+
+## Ecosystem Alignment
+
+## Future Framework Expansion
+
+---
 
 ## Constitutional Positioning
 
