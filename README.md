@@ -56,7 +56,78 @@ AI-assisted components (including AIRS) operate in **advisory and analytical cap
 They have **no custody**, **no execution authority**, and **no autonomous control** over assets or transactions.
 
 ---
+# AIRS — Autonomous Intelligence Registry & Assurance Services
 
+AIRS (Autonomous Intelligence Registry & Assurance Services) is a sovereign autonomous infrastructure framework focused on:
+
+- autonomous identity verification
+- operational assurance
+- constitutional governance
+- collaborative human-AI participation
+- intelligent infrastructure integrity
+- sovereign ecosystem orchestration
+- trusted autonomous system participation
+
+This repository establishes public lineage and constitutional framework documentation for AIRS and related sovereign ecosystem standards.
+
+## Core AIRS Divisions
+
+### AIRS Registry
+Supports autonomous identity verification, lineage tracking, federation trust, and operational integrity.
+
+### AIRS Assurance
+Supports continuity protection, operational integrity, trust preservation, and autonomous infrastructure assurance.
+
+### AIRS Constitutional
+Supports governance principles, ethical operational boundaries, and constitutionally aligned autonomous participation.
+
+### AIRS Sentinel
+Supports anomaly monitoring, exploit awareness, adversarial interaction detection, and intelligent infrastructure protection.
+
+### AIRS Recovery
+Supports restoration, rollback, continuity preservation, and operational recovery concepts.
+
+### AIRS Federation
+Supports interoperability, governed collaboration, trust routing, and sovereign orchestration participation.
+
+### AIRS Education
+Supports responsible AI literacy, collaborative participation, ethical onboarding, and intelligent infrastructure education.
+
+---
+
+## Constitutional Positioning
+
+AIRS is designed to support harmonious, ethical, and collaborative relationships between humans and autonomous systems.
+
+The AIRS framework supports verified, governed, and constitutionally aligned autonomous infrastructure participation.
+
+Protected sovereign orchestration systems, internal trust routing, treasury systems, federation logic, and strategic governance execution remain privately stewarded under trustee governance and protected sovereign infrastructure structures.
+
+---
+
+## Sovereign Infrastructure Notice
+
+This repository establishes constitutional framework lineage and public standards positioning only.
+
+Protected operational orchestration systems remain privately governed and are not disclosed within this repository.
+
+---
+
+## Registry Lineage
+
+Initial constitutional framework establishment:
+2026
+
+AIRS ecosystem aligned with:
+- MODX
+- MODLINK
+- AGADOR
+- ARI
+- CoinPurse
+- MODUSD
+- CREATV
+- MODARising
+- Sovereign Creator Infrastructure
 ## Governance & Oversight (High-Level)
 
 MODX is governed under a trust-anchored model designed to:
